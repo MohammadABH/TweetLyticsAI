@@ -100,8 +100,8 @@ class BertweetSentimentAnalysis:
         return classification_label
 
 
-text = "I love you"
-bertweet_sentiment = BertweetSentimentAnalysis()
-vader = VaderSentimentAnalysis()
-print(vader.predict_sentiment((text)))
-print(bertweet_sentiment.predict_sentiment(text))
+# text = "I love you"
+# bertweet_sentiment = BertweetSentimentAnalysis()
+# vader = VaderSentimentAnalysis()
+# print(vader.predict_sentiment((text)))
+# print(bertweet_sentiment.predict_sentiment(text))

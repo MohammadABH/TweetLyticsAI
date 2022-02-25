@@ -76,9 +76,9 @@ class BertKeywordExtractor:
         return top_keyword
 
 
-tweet = "This is some random tweet about machine learning. @therealabh is so cool, hes amazing #biden for life"
-yake_keyword_extractor = YakeKeywordExtractor()
-print(yake_keyword_extractor.get_keywords(tweet))
+# tweet = "chocolate cake perfection https://t.co/a6XHwgLy5a"
+# yake_keyword_extractor = YakeKeywordExtractor()
+# print(yake_keyword_extractor.get_keywords(tweet))
 
-keyword_extractor = BertKeywordExtractor()
-print(keyword_extractor.get_keywords(tweet))
+# keyword_extractor = BertKeywordExtractor()
+# print(keyword_extractor.get_keywords(tweet))
