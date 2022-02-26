@@ -1,8 +1,9 @@
 import networkx as nx
+from itertools import chain
 from networkx.readwrite import json_graph
 import json
-from twitter_api_service import TwitterAPIService
-from keyword_extraction_service import YakeKeywordExtractor
+from backend.services.twitter_api_service import TwitterAPIService
+from backend.services.keyword_extraction_service import YakeKeywordExtractor
 import matplotlib.pyplot as plt
 
 
@@ -17,8 +18,12 @@ class TweetTree:
     def _create_root(self, root_tweet):
         root_id = root_tweet['id']
         self.root = root_id
-        print(f"init root = {root_id}")
-        self.tree.add_node(root_id, data=root_tweet)
+        self.tree.add_node(root_id, attributes=root_tweet)
+
+    def _parse_tweet(self, tweet):
+        return {"id": tweet["id"],
+                "text": tweet["text"],
+                "sentiment": tweet["sentiment"]}
 
     def _create_children(self, conversation_thread):
         for tweet in conversation_thread:
@@ -26,7 +31,8 @@ class TweetTree:
             tweet_parent_id = tweet['referenced_tweets'][0]['id']
             # If parent tweet is deleted, ignore tweet
             if tweet_parent_id in self.tree:
-                self.tree.add_node(tweet_id, data=tweet)
+                parsed_tweet = self._parse_tweet(tweet)
+                self.tree.add_node(tweet_id, attributes=parsed_tweet)
                 self.tree.add_edge(tweet_parent_id, tweet_id, color="g", weight=3)
 
     def set_tree(self, tree):
@@ -42,7 +48,7 @@ class TweetTree:
         return self.root
 
     def get_json(self):
-        json_representation = json_graph.tree_data(self.tree, root=self.root)
+        json_representation = json_graph.tree_data(self.tree, root=self.root, ident="name")
 
         return json_representation
 
@@ -85,13 +91,13 @@ class TweetTreeBuilder:
         return self.tweet_tree
 
 
-tweet_tree = TweetTreeBuilder(1496855592027275273).get_tweet_tree()
-root = tweet_tree.get_root()
-data = tweet_tree.get_json()
+# tweet_tree = TweetTreeBuilder(1496855592027275273).get_tweet_tree()
+# root = tweet_tree.get_root()
+# data = tweet_tree.get_json()
 # print(f"Root = {root}")
-data = json_graph.tree_data(tweet_tree.get_tree(), root=tweet_tree.get_root())
-with open('data.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+# data = json_graph.tree_data(tweet_tree.get_tree(), root=tweet_tree.get_root())
+# with open('data.json', 'w', encoding='utf-8') as f:
+#     json.dump(data, f, ensure_ascii=False, indent=4)
 
 
 # s = json.dumps(data)

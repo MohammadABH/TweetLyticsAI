@@ -1,15 +1,27 @@
 import os
-from yake import KeywordExtractor
+from abc import ABC, abstractmethod
+from yake import KeywordExtractor as Yake
 from transformers import AutoModel, AutoTokenizer
 from textblob import TextBlob
 from sklearn.metrics.pairwise import cosine_similarity
-from utils.preprocessor_util import preprocess
+from backend.services.utils.preprocessor_util import preprocess
 
 
-class YakeKeywordExtractor:
+class KeywordExtractor(ABC):
+
+    @abstractmethod
+    def get_keywords(self, tweet):
+        pass
+
+    @abstractmethod
+    def get_top_keyword(self, tweet):
+        pass
+
+
+class YakeKeywordExtractor(KeywordExtractor):
 
     def __init__(self):
-        self.keyword_extractor = KeywordExtractor()
+        self.keyword_extractor = Yake()
 
     def get_keywords(self, tweet):
         keywords_with_scores = self.keyword_extractor.extract_keywords(tweet)
@@ -24,7 +36,7 @@ class YakeKeywordExtractor:
         return top_keyword
 
 
-class BertKeywordExtractor:
+class BertKeywordExtractor(KeywordExtractor):
     dirname = os.path.dirname(__file__)
     PATH = os.path.join(dirname, '../models/vinai/bertweet-base')
 

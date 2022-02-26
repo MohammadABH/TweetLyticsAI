@@ -1,6 +1,6 @@
 from twarc.client2 import Twarc2
 from twarc.expansions import ensure_flattened
-from sentiment_analysis_service import BertweetSentimentAnalysis
+from backend.services.sentiment_analysis_service import BertweetSentimentAnalysis
 
 
 class TwitterAPIService:
@@ -73,7 +73,7 @@ class TwitterAPIService:
         return tweets
 
 
-api = TwitterAPIService(
-    "AAAAAAAAAAAAAAAAAAAAAERfVAEAAAAA0rjC0YSarrfSEE88Ar2CF5I2RYs%3DkVWG3XwyVVx2zFcu4ISP32Gu9ajF3k7EK8iNOOkSuG1EQQunUB")
-t = api.get_tweet(1496982622693695496)
+# api = TwitterAPIService(
+#     "AAAAAAAAAAAAAAAAAAAAAERfVAEAAAAA0rjC0YSarrfSEE88Ar2CF5I2RYs%3DkVWG3XwyVVx2zFcu4ISP32Gu9ajF3k7EK8iNOOkSuG1EQQunUB")
+# t = api.get_tweet(1496982622693695496)
 # print(t)
