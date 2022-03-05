@@ -1,19 +1,34 @@
+import os
+from abc import ABC, abstractmethod
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import tokenize, download
-from utils.preprocessor_util import preprocess
+from backend.services.utils.preprocessor_util import preprocess
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, TextClassificationPipeline
-import os
-
 
 download('punkt')
 
 
-class VaderSentimentAnalysis:
+class SentimentAnalysis(ABC):
 
+    @abstractmethod
+    def predict_sentiment(self, tweet):
+        """
+        Abstract function that returns the sentiment label of an input Tweet.
+        The implementation/way in which the sentiment is extracted is determined
+        by the subclass.
+
+        :param tweet:   the input tweet to predict the sentiment label for
+
+        :return:        sentiment label (one of [positive, neutral, negative])
+        """
+        pass
+
+
+class VaderSentimentAnalysis(SentimentAnalysis):
     # Vader sentiment analysis object
     vader_analyzer = SentimentIntensityAnalyzer()
 
-    def get_sentiment_label(self, sentiment_score):
+    def _get_sentiment_label(self, sentiment_score):
         """
         Function that gets the sentiment label [positive, neutral, negative]
         of a sentiment compound score from Vader
@@ -34,9 +49,9 @@ class VaderSentimentAnalysis:
         """
         Function that predicts the sentiment label of an input tweet using Vader
 
-        :param tweet: the input tweet to predict the sentiment scores for
+        :param tweet:   the input tweet to predict the sentiment label for
 
-        :return       sentiment label of a given tweet
+        :return         sentiment label of a given tweet
         """
 
         preprocessed_tweet = preprocess(tweet)
@@ -59,10 +74,10 @@ class VaderSentimentAnalysis:
         overall_tweet_sentiment = round(overall_tweet_sentiment / len(sentences), 4)
 
         # return the sentiment label and not the score
-        return self.get_sentiment_label(overall_tweet_sentiment)
+        return self._get_sentiment_label(overall_tweet_sentiment)
 
 
-class BertweetSentimentAnalysis:
+class BertweetSentimentAnalysis(SentimentAnalysis):
     dirname = os.path.dirname(__file__)
     PATH = os.path.join(dirname, '../models/sentiment-analysis')
 
@@ -75,23 +90,25 @@ class BertweetSentimentAnalysis:
 
     # Dictionaries that map labels to model output ids and vice versa
     # to have more readable prediction outputs
-    id2label = {0: "negative",1: "neutral", 2: "positive"}
+    id2label = {0: "negative", 1: "neutral", 2: "positive"}
     label2id = {"negative": 0, "neutral": 1, "positive": 2}
 
     # Use Pytorch model instead of tensorflow due to small performance advantage
-    model = AutoModelForSequenceClassification.from_pretrained(MODEL, id2label=id2label, label2id=label2id, cache_dir=PATH)
+    model = AutoModelForSequenceClassification.from_pretrained(MODEL, id2label=id2label, label2id=label2id,
+                                                               cache_dir=PATH)
     model.save_pretrained(PATH)  # Save model to specified path in disk to prevent re-downloading
 
     def predict_sentiment(self, tweet):
         """
         Function that predicts the sentiment label of an input tweet using BERTweet
 
-        :param tweet: the input tweet to predict the sentiment scores for
+        :param tweet: the input tweet to predict the sentiment label for
 
         :return       sentiment label of a given tweet
         """
 
-        pipe = TextClassificationPipeline(model=BertweetSentimentAnalysis.model, tokenizer=BertweetSentimentAnalysis.tokenizer, return_all_scores=False)
+        pipe = TextClassificationPipeline(model=BertweetSentimentAnalysis.model,
+                                          tokenizer=BertweetSentimentAnalysis.tokenizer, return_all_scores=False)
         classification_output = pipe(tweet)
         best_prediction = classification_output[0]
         clssification_score = best_prediction['score']
@@ -99,9 +116,8 @@ class BertweetSentimentAnalysis:
 
         return classification_label
 
-
-text = "I love you"
-bertweet_sentiment = BertweetSentimentAnalysis()
-vader = VaderSentimentAnalysis()
-print(vader.predict_sentiment((text)))
-print(bertweet_sentiment.predict_sentiment(text))
+# text = "I love you"
+# bertweet_sentiment = BertweetSentimentAnalysis()
+# vader = VaderSentimentAnalysis()
+# print(vader.predict_sentiment((text)))
+# print(bertweet_sentiment.predict_sentiment(text))
