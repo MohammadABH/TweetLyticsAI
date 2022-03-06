@@ -111,7 +111,7 @@ class BertweetSentimentAnalysis(SentimentAnalysis):
                                           tokenizer=BertweetSentimentAnalysis.tokenizer, return_all_scores=False)
         classification_output = pipe(tweet)
         best_prediction = classification_output[0]
-        clssification_score = best_prediction['score']
+        classification_score = best_prediction['score']
         classification_label = best_prediction['label']
 
         return classification_label
