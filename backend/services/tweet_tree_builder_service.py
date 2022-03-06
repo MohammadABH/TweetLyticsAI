@@ -3,7 +3,7 @@ from itertools import chain
 from networkx.readwrite import json_graph
 import json
 from backend.services.twitter_api_service import TwitterAPIService
-from backend.services.keyword_extraction_service import YakeKeywordExtractor
+from backend.services.keyword_extraction_service import BertKeywordExtractor
 import matplotlib.pyplot as plt
 
 
@@ -157,7 +157,7 @@ class TweetTree:
 
 
 class TweetTreeBuilder:
-    keyword_extraction_service = YakeKeywordExtractor()
+    keyword_extraction_service = BertKeywordExtractor()
 
     def __init__(self, tweet_id):
         self.twitter_api_service = TwitterAPIService(
@@ -178,8 +178,8 @@ class TweetTreeBuilder:
         metrics.compute_sentiment_towards_root()
 
         # Build related tweet trees and append them to main tweet tree
-        # related_tweets = self._get_related_tweets(tweet_text)
-        related_tweets = []
+        related_tweets = self._get_related_tweets(tweet_text)
+        # related_tweets = []
         for related_tweet in related_tweets:
             related_tweet["argumentative_type"] = "support"
             # Only retrieve 'fresh' tweets that are not replies or are retweets tweets
