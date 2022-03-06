@@ -119,3 +119,4 @@ class BertKeywordExtractor(KeywordExtractor):
 
 # keyword_extractor = BertKeywordExtractor()
 # print(keyword_extractor.get_top_keyword(tweet))
+# print(keyword_extractor.get_keywords(tweet))

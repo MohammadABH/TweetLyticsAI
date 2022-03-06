@@ -127,6 +127,7 @@ class TweetTree:
                 self.tree.add_edge(tweet_parent_id, tweet_id, color="g", weight=3)
 
                 self.metrics.set_max_public_metrics(parsed_tweet)
+        
                 if tweet_parent_id == self.root:
                     self.metrics.increment_root_sentiment(parsed_tweet["sentiment"])
                 else:
@@ -157,7 +158,9 @@ class TweetTree:
 
 
 class TweetTreeBuilder:
+  
     keyword_extraction_service = BertKeywordExtractor()
+
 
     def __init__(self, tweet_id):
         self.twitter_api_service = TwitterAPIService(

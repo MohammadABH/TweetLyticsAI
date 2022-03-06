@@ -16,4 +16,3 @@ def tweet_analyzer(tweet_id: int):
     response = controller.analyze_tweet(tweet_id)
 
     return {"response": response}
-
