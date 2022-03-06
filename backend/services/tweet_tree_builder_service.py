@@ -3,7 +3,7 @@ from itertools import chain
 from networkx.readwrite import json_graph
 import json
 from backend.services.twitter_api_service import TwitterAPIService
-from backend.services.keyword_extraction_service import YakeKeywordExtractor
+from backend.services.keyword_extraction_service import BertKeywordExtractor
 import matplotlib.pyplot as plt
 
 
@@ -23,6 +23,8 @@ class TweetTreeMetrics:
         self.root_neutral_sentiment_count = 0
         self.sentiment_towards_root = ""
 
+        self.max_public_metrics = 0
+
     def set_root_tweet_sentiment(self, root_tweet_sentiment):
         self.root_tweet_sentiment = root_tweet_sentiment
 
@@ -32,6 +34,13 @@ class TweetTreeMetrics:
     def set_strongest_argument_id(self, strongest_argument_id, argument_strength):
         if argument_strength > self.strongest_argument_id:
             self.strongest_argument_id = strongest_argument_id
+
+    def set_max_public_metrics(self, tweet):
+        public_metrics = tweet["public_metrics"]
+        score = public_metrics["like_count"] + public_metrics["retweet_count"]
+
+        if score > self.max_public_metrics:
+            self.max_public_metrics = score
 
     def increment_general_sentiment(self, sentiment_type):
         if sentiment_type == "positive":
@@ -53,7 +62,7 @@ class TweetTreeMetrics:
         values = [self.general_positive_sentiment_count,
                   self.general_negative_sentiment_count,
                   self.general_neutral_sentiment_count]
-        labels = ["Positive", "Negative", "Neutral"]
+        labels = ["positive", "negative", "neutral"]
 
         labels_with_values = zip(values, labels)
         max_label = max(labels_with_values)[1]  # Max label is the mode, as it is the max of all the sentiment counts
@@ -64,12 +73,15 @@ class TweetTreeMetrics:
         values = [self.root_positive_sentiment_count,
                   self.root_negative_sentiment_count,
                   self.root_neutral_sentiment_count]
-        labels = ["Positive", "Negative", "Neutral"]
+        labels = ["positive", "negative", "neutral"]
 
         labels_with_values = zip(values, labels)
         max_label = max(labels_with_values)[1]  # Max label is the mode, as it is the max of all the sentiment counts
 
         self.sentiment_towards_root = max_label
+
+    def get_max_public_metrics(self):
+        return self.max_public_metrics
 
     def get_metrics(self):
         return {
@@ -94,6 +106,7 @@ class TweetTree:
         root_id = root_tweet["id"]
         self.root = root_id
         self.tree.add_node(root_id, attributes=root_tweet)
+        self.metrics.set_max_public_metrics(root_tweet)
 
     def _parse_tweet(self, tweet):
         return {"id": tweet["id"],
@@ -109,9 +122,12 @@ class TweetTree:
             # If parent tweet is deleted, ignore tweet
             if tweet_parent_id in self.tree:
                 parsed_tweet = self._parse_tweet(tweet)
+                parsed_tweet["argumentative_type"] = "support"
                 self.tree.add_node(tweet_id, attributes=parsed_tweet)
                 self.tree.add_edge(tweet_parent_id, tweet_id, color="g", weight=3)
 
+                self.metrics.set_max_public_metrics(parsed_tweet)
+        
                 if tweet_parent_id == self.root:
                     self.metrics.increment_root_sentiment(parsed_tweet["sentiment"])
                 else:
@@ -142,7 +158,9 @@ class TweetTree:
 
 
 class TweetTreeBuilder:
-    keyword_extraction_service = YakeKeywordExtractor()
+  
+    keyword_extraction_service = BertKeywordExtractor()
+
 
     def __init__(self, tweet_id):
         self.twitter_api_service = TwitterAPIService(
@@ -152,6 +170,7 @@ class TweetTreeBuilder:
     def _build_tweet_tree(self, tweet_id):
         # Build tweet tree
         tweet = self.twitter_api_service.get_tweet(tweet_id)
+        tweet["argumentative_type"] = "none"
         tweet_text = tweet["text"]
         tweet_conversation_thread = self.twitter_api_service.get_conversation_thread(tweet_id)
 
@@ -163,7 +182,9 @@ class TweetTreeBuilder:
 
         # Build related tweet trees and append them to main tweet tree
         related_tweets = self._get_related_tweets(tweet_text)
+        # related_tweets = []
         for related_tweet in related_tweets:
+            related_tweet["argumentative_type"] = "support"
             # Only retrieve 'fresh' tweets that are not replies or are retweets tweets
             if 'referenced_tweets' not in related_tweet and related_tweet['id'] != tweet['id']:
                 related_tweet_thread = self.twitter_api_service.get_conversation_thread(related_tweet['id'])
