@@ -52,7 +52,7 @@ class TwitterAPIService:
 
         return conversation_thread
 
-    def get_tweets_from_keyword(self, keyword, number_of_tweets=100):
+    def get_tweets_from_keyword(self, keyword, number_of_tweets=5):
         search_query = f"{keyword} lang:en -is:retweet -is:reply -is:quote"
         tweet_fields = "id,text,public_metrics"
         search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields,max_results=100)

@@ -1,13 +1,16 @@
 class ArgumentationAlgorithmService:
 
-    def __init__(self, max_score, tweet_tree):
+    def __init__(self, max_score, min_score, tweet_tree):
         self.max_score = max_score
+        self.min_score = min_score
         self.tweet_tree = tweet_tree
 
     def base_strength(self, tweet):
+        if tweet["attributes"]["argumentative_type"] == "none":
+            return 0.5
+
         score = tweet["attributes"]["public_metrics"]["like_count"] + tweet["attributes"]["public_metrics"]["retweet_count"]
-        normalized_score = score / self.max_score
-        # print(f"base: {normalized_score}")
+        normalized_score = ((score - self.min_score) / (self.max_score - self.min_score))
 
         return normalized_score
 
