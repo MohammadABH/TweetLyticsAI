@@ -15,13 +15,17 @@ type TweetNodeAttributes = {
   sentiment: TweetSentiment;
   argumentative_type: TweetArgumentativeType;
   acceptability: number;
-  public_metrics: TweetPublicMetrics;
+  // public_metrics: TweetPublicMetrics;
+  like_count: number;
+  quote_count: number;
+  reply_count: number;
+  retweet_count: number;
 };
 
 type TweetNode = {
+  name: string;
   attributes: TweetNodeAttributes;
   children: TweetNode[];
-  name: number;
 };
 
 type TweetTreeMetrics = {

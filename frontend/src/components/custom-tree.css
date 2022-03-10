@@ -1,0 +1,14 @@
+.link__attack {
+  stroke: #ff0000 !important;
+  stroke-width: 0.2rem !important;
+}
+
+.link__support {
+  stroke: #36c71de7 !important;
+  stroke-width: 0.2rem !important;
+}
+
+.link__neutral {
+  stroke: #818181 !important;
+  stroke-width: 0.2rem !important;
+}

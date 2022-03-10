@@ -36,18 +36,16 @@ const HomePage = () => {
       </Container>
 
       <Container>
-        <Text>
-          <strong>Note:</strong>
-          <UnorderedList>
-            <ListItem>
-              Directly means when someone directly replied to the tweet
-            </ListItem>
-            <ListItem>
-              Indirectly means when someone tweets something related to the
-              topic of the tweet and is an argument for / against the tweet
-            </ListItem>
-          </UnorderedList>
-        </Text>
+        <strong>Note:</strong>
+        <UnorderedList>
+          <ListItem>
+            Directly means when someone directly replied to the tweet
+          </ListItem>
+          <ListItem>
+            Indirectly means when someone tweets something related to the topic
+            of the tweet and is an argument for / against the tweet
+          </ListItem>
+        </UnorderedList>
       </Container>
     </>
   );
