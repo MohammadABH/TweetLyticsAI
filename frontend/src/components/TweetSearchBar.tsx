@@ -8,10 +8,12 @@ import {
   Input,
   FormErrorMessage,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 const TweetSearchBar = () => {
   const [tweetId, setTweetId] = useState<string>("");
   const [isValidInput, setIsValidInput] = useState<boolean>(false);
+  const navigate = useNavigate();
 
   const validateTweetURL = (value: string): string | undefined => {
     let error = undefined;
@@ -43,10 +45,8 @@ const TweetSearchBar = () => {
       <Formik
         initialValues={{ tweetUrl: "" }}
         onSubmit={(values, actions) => {
-          setTimeout(() => {
-            alert(JSON.stringify(tweetId, null, 2));
-            actions.setSubmitting(false);
-          }, 1000);
+          actions.setSubmitting(false);
+          navigate(`/analyze/${tweetId}`);
         }}
       >
         {({ isSubmitting }) => (

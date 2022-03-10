@@ -1,25 +1,23 @@
 import React from "react";
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from "@chakra-ui/react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ChakraProvider, Box, Grid, theme } from "@chakra-ui/react";
 
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import HomePage from "./pages/HomePage";
+import TweetAnalysisPage from "./pages/TweetAnalysisPage";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
-      <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <HomePage />
-      </Grid>
-    </Box>
+    <BrowserRouter>
+      <Box textAlign="center" fontSize="xl">
+        <Grid minH="100vh" p={3}>
+          <ColorModeSwitcher justifySelf="flex-end" />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/analyze/:id" element={<TweetAnalysisPage />} />
+          </Routes>
+        </Grid>
+      </Box>
+    </BrowserRouter>
   </ChakraProvider>
 );
