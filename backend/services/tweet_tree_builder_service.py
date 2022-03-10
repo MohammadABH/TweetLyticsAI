@@ -13,7 +13,9 @@ class TweetTreeMetrics:
     def __init__(self):
         self.root_tweet_sentiment = ""
         self.root_tweet_argument_strength = ""
+
         self.strongest_argument_id = ""
+        self.strongest_argument_score = 0.0
 
         self.general_positive_sentiment_count = 0
         self.general_negative_sentiment_count = 0
@@ -34,19 +36,18 @@ class TweetTreeMetrics:
         self.root_tweet_argument_strength = root_tweet_argument_strength
 
     def set_strongest_argument_id(self, strongest_argument_id, argument_strength):
-        if argument_strength > self.strongest_argument_id:
+        if argument_strength > self.strongest_argument_score:
             self.strongest_argument_id = strongest_argument_id
+            self.strongest_argument_score = argument_strength
 
     def set_max_public_metrics(self, tweet):
-        public_metrics = tweet["public_metrics"]
-        score = public_metrics["like_count"] + public_metrics["retweet_count"]
+        score = tweet["like_count"] + tweet["retweet_count"]
 
         if score > self.max_public_metrics:
             self.max_public_metrics = score
 
     def set_min_public_metrics(self, tweet):
-        public_metrics = tweet["public_metrics"]
-        score = public_metrics["like_count"] + public_metrics["retweet_count"]
+        score = tweet["like_count"] + tweet["retweet_count"]
 
         if score < self.min_public_metrics:
             self.min_public_metrics = score
@@ -126,7 +127,10 @@ class TweetTree:
     def _parse_tweet(self, tweet):
         return {"id": tweet["id"],
                 "text": tweet["text"],
-                "public_metrics": tweet["public_metrics"],
+                "retweet_count": tweet["retweet_count"],
+                "reply_count": tweet["reply_count"],
+                "like_count": tweet["like_count"],
+                "quote_count": tweet["quote_count"],
                 "sentiment": tweet["sentiment"]}
 
     def _create_children(self, conversation_thread):

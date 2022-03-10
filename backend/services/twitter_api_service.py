@@ -18,13 +18,35 @@ class TwitterAPIService:
         return {"id": tweet["id"],
                 "text": tweet["text"],
                 "referenced_tweets": tweet["referenced_tweets"] if "referenced_tweets" in tweet else [],
-                "public_metrics": tweet["public_metrics"],
+                "retweet_count": tweet["public_metrics"]["retweet_count"],
+                "reply_count": tweet["public_metrics"]["reply_count"],
+                "like_count": tweet["public_metrics"]["like_count"],
+                "quote_count": tweet["public_metrics"]["quote_count"],
                 "sentiment": self.get_tweet_sentiment(tweet["text"])}
+
+    def parse_tweet_keyword(self, tweet):
+        tweet.pop('attachments', None)
+        tweet.pop('author', None)
+        tweet.pop('__twarc', None)
+        tweet.pop('author_id', None)
+        tweet.pop('entities', None)
+        tweet.pop('geo', None)
+        tweet["retweet_count"] = tweet["public_metrics"]["retweet_count"]
+        tweet["reply_count"] = tweet["public_metrics"]["reply_count"]
+        tweet["like_count"] = tweet["public_metrics"]["like_count"]
+        tweet["quote_count"] = tweet["public_metrics"]["quote_count"]
+        tweet["sentiment"] = self.get_tweet_sentiment(tweet["text"])
+        tweet.pop('public_metrics', None)
+
+        return tweet
 
     def parse_tweet(self, tweet):
         return {"id": tweet["id"],
                 "text": tweet["text"],
-                "public_metrics": tweet["public_metrics"],
+                "retweet_count": tweet["public_metrics"]["retweet_count"],
+                "reply_count": tweet["public_metrics"]["reply_count"],
+                "like_count": tweet["public_metrics"]["like_count"],
+                "quote_count": tweet["public_metrics"]["quote_count"],
                 "sentiment": self.get_tweet_sentiment(tweet["text"])}
 
     def get_tweet(self, tweet_id):
@@ -39,7 +61,7 @@ class TwitterAPIService:
 
     def get_conversation_thread(self, conversation_id):
         search_query = f"conversation_id: {conversation_id} lang:en"
-        tweet_fields = "in_reply_to_user_id,author_id,public_metrics"
+        tweet_fields = "in_reply_to_user_id,public_metrics"
         search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields)
 
         conversation_thread = []
@@ -55,12 +77,13 @@ class TwitterAPIService:
     def get_tweets_from_keyword(self, keyword, number_of_tweets=5):
         search_query = f"{keyword} lang:en -is:retweet -is:reply -is:quote"
         tweet_fields = "id,text,public_metrics"
-        search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields,max_results=100)
+        search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields, max_results=100)
 
         tweets = []
         for page in search_result:
             for tweet in ensure_flattened(page):
-                tweets.append(tweet)
+                parsed_tweet = self.parse_tweet_keyword(tweet)
+                tweets.append(parsed_tweet)
                 number_of_tweets -= 1
 
             if number_of_tweets <= 0:
