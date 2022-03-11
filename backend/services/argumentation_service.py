@@ -8,7 +8,7 @@ class ArgumentationAlgorithmService:
 
     def base_strength(self, tweet):
         if tweet["attributes"]["argumentative_type"] == "none":
-            return 0.5
+            return 0.5  # TODO MAKE CONSTANT
 
         score = tweet["attributes"]["like_count"] + tweet["attributes"]["retweet_count"]
         normalized_score = ((score - self.min_score) / (self.max_score - self.min_score))
