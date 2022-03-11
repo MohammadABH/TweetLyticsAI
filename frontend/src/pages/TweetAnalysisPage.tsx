@@ -13,13 +13,11 @@ const TweetAnalysisPage = () => {
     if (tweetId === undefined) setErrorMessage("Invalid Tweet URL ID");
     else {
       try {
-        const parsedTweetId = parseInt(tweetId);
-        const { response: tweetsResponse } = await fetchTweetsApi(
-          parsedTweetId
-        );
+        const { response: tweetsResponse } = await fetchTweetsApi(tweetId);
         setTweets(tweetsResponse);
         setErrorMessage("");
       } catch (error) {
+        // TODO: MAKE sure this works when server returns error
         setErrorMessage(
           "Something went wrong while processing your request, make sure the Tweet URL is valid and try again!"
         );

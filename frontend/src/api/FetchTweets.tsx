@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export default async function fetchTweetsApi(tweetId: number) {
+export default async function fetchTweetsApi(tweetId: string) {
   const response = await axios.get<TweetTreeAPIResponse>(
     `http://localhost:8000/api/analyze/${tweetId}`
   );

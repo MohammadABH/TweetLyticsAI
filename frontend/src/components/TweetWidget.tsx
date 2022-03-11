@@ -8,8 +8,7 @@ interface IProps {
 
 const TweetWidget = ({ tweetId }: IProps) => {
   const fetchTweetWidget = async () => {
-    const parsedTweetId = parseInt(tweetId);
-    const res = fetchTweetWidgetApi(parsedTweetId);
+    const res = fetchTweetWidgetApi(tweetId);
     console.log(res);
   };
 
