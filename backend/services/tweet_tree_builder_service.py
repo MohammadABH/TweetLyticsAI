@@ -3,7 +3,7 @@ from itertools import chain
 from networkx.readwrite import json_graph
 import json
 from backend.services.twitter_api_service import TwitterAPIService
-from backend.services.keyword_extraction_service import BertKeywordExtractor
+from backend.services.keyword_extraction_service import KeywordExtractor
 from backend.services.relation_based_classifier_service import RelationBasedClassifierService
 import matplotlib.pyplot as plt
 
@@ -179,7 +179,7 @@ class TweetTree:
 
 class TweetTreeBuilder:
   
-    keyword_extraction_service = BertKeywordExtractor()
+    keyword_extraction_service = KeywordExtractor()
     argumentation_relation_service = RelationBasedClassifierService()
 
 

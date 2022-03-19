@@ -11,7 +11,7 @@ class ArgumentationAlgorithmService:
             return 0.5  # TODO MAKE CONSTANT
 
         score = tweet["attributes"]["like_count"] + tweet["attributes"]["retweet_count"]
-        normalized_score = ((score - self.min_score) / (self.max_score - self.min_score))
+        normalized_score = ((score - self.min_score) / (self.max_score - self.min_score) + 0.000001)
 
         return normalized_score
 

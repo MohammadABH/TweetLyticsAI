@@ -1,11 +1,11 @@
 from twarc.client2 import Twarc2
 from twarc.expansions import ensure_flattened
-from backend.services.sentiment_analysis_service import BertweetSentimentAnalysis
+from backend.services.sentiment_analysis_service import SentimentAnalysis
 
 
 class TwitterAPIService:
 
-    sentiment_analysis_service = BertweetSentimentAnalysis()
+    sentiment_analysis_service = SentimentAnalysis()
 
     def __init__(self, bearer_token):
         self.twarc = Twarc2(bearer_token=bearer_token)

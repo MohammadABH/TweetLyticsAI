@@ -26,9 +26,14 @@ async def health_check() -> dict:
 
 @app.get("/api/analyze/{tweet_id}", tags=["analyze"])
 def tweet_analyzer(tweet_id: int) -> dict:
-    response = controller.analyze_tweet(tweet_id)
+    try:
+        response = controller.analyze_tweet(tweet_id)
 
-    return {"response": response}
+        return {"response": response}
+    except:
+        raise Exception("Oops! Something went wrong while processing your request. Make sure the Tweet ID passed is "
+                        "valid and try again later.")
+
 
 # if __name__ == "__main__":
 #     uvicorn.run(app, host="0.0.0.0", port=8000) || pass
