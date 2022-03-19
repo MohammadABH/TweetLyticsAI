@@ -9,12 +9,12 @@ import {
   Icon,
   Tooltip,
   Box,
+  Link,
 } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { BiHappy, BiSad } from "react-icons/bi";
 import { MdOutlineSentimentNeutral } from "react-icons/md";
 import { AiOutlineInfoCircle } from "react-icons/ai";
-
-import TweetWidget from "./TweetWidget";
 
 interface IProps {
   tweetId: string;
@@ -42,7 +42,6 @@ const TweetTreeMetrics = ({ tweetTreeMetrics, tweetId }: IProps) => {
       <Heading as="h2" size="m" p={2}>
         Tweet Tree Metrics
       </Heading>
-      {/* <TweetWidget tweetId={tweetId} /> */}
       <StatGroup p={2}>
         <Stat>
           <Tooltip
@@ -102,7 +101,14 @@ const TweetTreeMetrics = ({ tweetTreeMetrics, tweetId }: IProps) => {
             </span>
           </Tooltip>
           <StatLabel>Strongest Argument</StatLabel>
-          <StatNumber>{strongest_argument_id}</StatNumber>
+          <StatNumber>
+            <Link
+              href={`https://twitter.com/twitter/status/${tweetId}`}
+              isExternal
+            >
+              <u>{strongest_argument_id}</u> <ExternalLinkIcon mx="2px" />
+            </Link>
+          </StatNumber>
         </Stat>
 
         <Stat>

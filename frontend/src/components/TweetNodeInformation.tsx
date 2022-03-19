@@ -10,7 +10,11 @@ import {
   ModalFooter,
   UnorderedList,
   ListItem,
+  Link,
 } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
+
+import TweetWidget from "./TweetWidget";
 
 interface IProps {
   currentNode: TweetNode | null;
@@ -34,7 +38,14 @@ const TweetNodeInformation = ({
         <ModalBody>
           <UnorderedList>
             <ListItem>
-              <strong>ID:</strong> {currentNode?.attributes.id}
+              <strong>ID:</strong>
+              <Link
+                href={`https://twitter.com/twitter/status/${currentNode?.attributes.id}`}
+                isExternal
+              >
+                <u>{currentNode?.attributes.id}</u>{" "}
+                <ExternalLinkIcon mx="2px" />
+              </Link>
             </ListItem>
             <ListItem>
               <strong>Text:</strong> "{currentNode?.attributes.text}"
@@ -64,6 +75,7 @@ const TweetNodeInformation = ({
               {currentNode?.attributes.reply_count}
             </ListItem>
           </UnorderedList>
+          <TweetWidget tweetId={currentNode?.name} />
         </ModalBody>
         <ModalFooter>
           <Button onClick={handleCloseModal}>Close</Button>

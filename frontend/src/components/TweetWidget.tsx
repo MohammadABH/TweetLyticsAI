@@ -1,23 +1,19 @@
 import React, { useEffect } from "react";
+import { Box, Center, Text } from "@chakra-ui/react";
 import { Tweet } from "react-twitter-widgets";
-import fetchTweetWidgetApi from "../api/FetchTweetWidget";
 
 interface IProps {
-  tweetId: string;
+  tweetId: string | undefined;
 }
 
 const TweetWidget = ({ tweetId }: IProps) => {
-  const fetchTweetWidget = async () => {
-    const res = fetchTweetWidgetApi(tweetId);
-    console.log(res);
-  };
+  if (tweetId === undefined) return <></>;
 
-  useEffect(() => {
-    fetchTweetWidget();
-  }, []);
   return (
-    <div></div>
-    // <Tweet tweetId={tweetId} renderError={(_err) => "Could not load tweet! "} />
+    <Tweet
+      tweetId={tweetId}
+      renderError={(_err) => <Text>"Could not load tweet!"</Text>}
+    />
   );
 };
 

@@ -16,8 +16,9 @@ const TweetAnalysisPage = () => {
         const { response: tweetsResponse } = await fetchTweetsApi(tweetId);
         setTweets(tweetsResponse);
         setErrorMessage("");
+        console.log("NOT ERROR");
       } catch (error) {
-        // TODO: MAKE sure this works when server returns error
+        console.log("ERROR");
         setErrorMessage(
           "Something went wrong while processing your request, make sure the Tweet URL is valid and try again!"
         );
