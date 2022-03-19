@@ -206,8 +206,8 @@ class TweetTreeBuilder:
         # related_tweets = []
         for related_tweet in related_tweets:
             related_tweet["argumentative_type"] = TweetTreeBuilder.argumentation_relation_service.predict_argumentative_relation(tweet_text, related_tweet["text"])
-            # Only retrieve 'fresh' tweets that are not replies or are retweets tweets
-            if 'referenced_tweets' not in related_tweet and related_tweet['id'] != tweet['id']:
+            # Only retrieve 'fresh' argumentative tweets that are not replies or are retweets tweets
+            if (related_tweet["argumentative_type"] != 'neutral') and ('referenced_tweets' not in related_tweet) and (related_tweet['id'] != tweet['id']):
                 related_tweet_thread = self.twitter_api_service.get_conversation_thread(related_tweet['id'])
                 related_tweet_tree = TweetTree(related_tweet, related_tweet_thread, metrics).get_tree()
                 tweet_tree.set_tree(nx.compose(tweet_tree.get_tree(), related_tweet_tree))
@@ -221,7 +221,7 @@ class TweetTreeBuilder:
             # No keyword extracted, don't query the API
             return []
         tweets_about_keyword = self.twitter_api_service.get_tweets_from_keyword(keyword)
-        related_tweets = tweets_about_keyword  # TODO: check argumentative relation
+        related_tweets = tweets_about_keyword
 
         return related_tweets
 
