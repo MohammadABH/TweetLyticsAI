@@ -1,21 +1,22 @@
 class ArgumentationAlgorithmService:
 
-    def __init__(self, max_score, min_score, tweet_tree):
+    def __init__(self, max_score, min_score, tweet_tree, tweet_tree_metrics):
         self.max_score = max_score
         self.min_score = min_score
         self.tweet_tree = tweet_tree
+        self.tweet_tree_metrics = tweet_tree_metrics
 
     def base_strength(self, tweet):
         if tweet["attributes"]["argumentative_type"] == "none":
-            return 0.5
+            return 0.5  # TODO MAKE CONSTANT
 
-        score = tweet["attributes"]["public_metrics"]["like_count"] + tweet["attributes"]["public_metrics"]["retweet_count"]
-        normalized_score = ((score - self.min_score) / (self.max_score - self.min_score))
+        score = tweet["attributes"]["like_count"] + tweet["attributes"]["retweet_count"]
+        normalized_score = ((score - self.min_score) / (self.max_score - self.min_score) + 0.000001)
 
         return normalized_score
 
     def acceptability_degree(self, tweet):
-        if tweet is None or tweet["attributes"]["argumentative_type"] == "neither":
+        if tweet is None or tweet["attributes"]["argumentative_type"] == "neutral":
             return 0.0
 
         supporters_score = 0.0
@@ -33,6 +34,8 @@ class ArgumentationAlgorithmService:
         strength_child = supporters_score - attackers_score
         degree = 1 - ((1 - self.base_strength(tweet)**2) / (1 + (self.base_strength(tweet) * (2 ** strength_child))))
         tweet["attributes"]["acceptability"] = degree
+
+        self.tweet_tree_metrics.set_strongest_argument_id(tweet["attributes"]["id"], degree)
 
         return degree
 

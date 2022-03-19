@@ -1,5 +1,5 @@
 import os
-from abc import ABC, abstractmethod
+from interface import implements, Interface
 from yake import KeywordExtractor as Yake
 from transformers import AutoModel, AutoTokenizer
 from textblob import TextBlob
@@ -8,18 +8,16 @@ from sklearn.feature_extraction.text import CountVectorizer
 from backend.services.utils.preprocessor_util import preprocess
 
 
-class KeywordExtractor(ABC):
+class IKeywordExtractor(Interface):
 
-    @abstractmethod
     def get_keywords(self, tweet):
         pass
 
-    @abstractmethod
     def get_top_keyword(self, tweet):
         pass
 
 
-class YakeKeywordExtractor(KeywordExtractor):
+class YakeKeywordExtractor(implements(IKeywordExtractor)):
 
     def __init__(self):
         self.keyword_extractor = Yake()
@@ -37,7 +35,7 @@ class YakeKeywordExtractor(KeywordExtractor):
         return top_keyword
 
 
-class BertKeywordExtractor(KeywordExtractor):
+class BertKeywordExtractor(implements(IKeywordExtractor)):
     dirname = os.path.dirname(__file__)
     PATH = os.path.join(dirname, '../models/vinai/bertweet-base')
 
@@ -77,7 +75,6 @@ class BertKeywordExtractor(KeywordExtractor):
 
         return candidates
 
-
     def get_embeddings_from_texts(self, text_list):
         tokens = BertKeywordExtractor.tokenizer(text_list, padding=True, return_tensors="pt")
         embeddings = BertKeywordExtractor.model(**tokens)["pooler_output"]
@@ -92,8 +89,8 @@ class BertKeywordExtractor(KeywordExtractor):
 
         return keywords
 
-    def get_keywords(self, text):
-        pre_processed_text = preprocess(text)
+    def get_keywords(self, tweet):
+        pre_processed_text = preprocess(tweet)
         candidates = self.get_candidates(pre_processed_text)
         if len(candidates) == 0:
             # No possibly meaningful keyword can be extracted from the tweet, probably a tweet that doesn't make sense
@@ -106,12 +103,28 @@ class BertKeywordExtractor(KeywordExtractor):
 
         return keywords
 
-    def get_top_keyword(self, text):
-        keywords = self.get_keywords(text)
+    def get_top_keyword(self, tweet):
+        keywords = self.get_keywords(tweet)
         top_keyword = keywords[0]
 
         return top_keyword
 
+
+class KeywordExtractor(implements(IKeywordExtractor)):
+    bertKeywordExtractor = BertKeywordExtractor()
+    yakeKeywordExtractor = YakeKeywordExtractor()
+
+    def get_keywords(self, tweet):
+        try:
+            KeywordExtractor.bertKeywordExtractor.get_keywords(tweet)
+        except:
+            KeywordExtractor.yakeKeywordExtractor.get_keywords(tweet)
+
+    def get_top_keyword(self, tweet):
+        try:
+            KeywordExtractor.bertKeywordExtractor.get_top_keyword(tweet)
+        except:
+            KeywordExtractor.yakeKeywordExtractor.get_top_keyword(tweet)
 
 # tweet = "chocolate cake perfection https://t.co/a6XHwgLy5a"
 # yake_keyword_extractor = YakeKeywordExtractor()

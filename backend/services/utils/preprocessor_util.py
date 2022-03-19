@@ -14,3 +14,5 @@ def preprocess(tweet):
         word = '@user' if tweet.startswith('@') and len(word) > 1 else word  # Preprocess twitter handles
         preprocessed_tweet.append(word)
     return " ".join(preprocessed_tweet)
+
+# TODO: remove _utils file

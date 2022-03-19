@@ -1,5 +1,5 @@
 import os
-from abc import ABC, abstractmethod
+from interface import implements, Interface
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import tokenize, download
 from backend.services.utils.preprocessor_util import preprocess
@@ -8,9 +8,8 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Text
 download('punkt')
 
 
-class SentimentAnalysis(ABC):
+class ISentimentAnalysis(Interface):
 
-    @abstractmethod
     def predict_sentiment(self, tweet):
         """
         Abstract function that returns the sentiment label of an input Tweet.
@@ -24,7 +23,7 @@ class SentimentAnalysis(ABC):
         pass
 
 
-class VaderSentimentAnalysis(SentimentAnalysis):
+class VaderSentimentAnalysis(implements(ISentimentAnalysis)):
     # Vader sentiment analysis object
     vader_analyzer = SentimentIntensityAnalyzer()
 
@@ -77,7 +76,7 @@ class VaderSentimentAnalysis(SentimentAnalysis):
         return self._get_sentiment_label(overall_tweet_sentiment)
 
 
-class BertweetSentimentAnalysis(SentimentAnalysis):
+class BertweetSentimentAnalysis(implements(ISentimentAnalysis)):
     dirname = os.path.dirname(__file__)
     PATH = os.path.join(dirname, '../models/sentiment-analysis')
 
@@ -115,6 +114,26 @@ class BertweetSentimentAnalysis(SentimentAnalysis):
         classification_label = best_prediction['label']
 
         return classification_label
+
+
+class SentimentAnalysis(implements(ISentimentAnalysis)):
+
+    bertSentimentAnalysis = BertweetSentimentAnalysis()
+    vaderSentimentAnalysis = VaderSentimentAnalysis()
+
+    def predict_sentiment(self, tweet):
+        """
+        Function that predicts the sentiment label of an input tweet. It attempts to use BERTweet, if it fails,
+        it uses VADER.
+
+        :param tweet:   the input tweet to predict the sentiment label for
+
+        :return         sentiment label of a given tweet
+        """
+        try:
+            return SentimentAnalysis.bertSentimentAnalysis.predict_sentiment(tweet)
+        except:
+            return SentimentAnalysis.vaderSentimentAnalysis.predict_sentiment(tweet)
 
 # text = "I love you"
 # bertweet_sentiment = BertweetSentimentAnalysis()
