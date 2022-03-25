@@ -4,7 +4,7 @@ from networkx.readwrite import json_graph
 import json
 from backend.services.twitter_api_service import TwitterAPIService
 from backend.services.keyword_extraction_service import KeywordExtractor
-from backend.services.relation_based_classifier_service import RelationBasedClassifierService
+from backend.services.relation_based_classifier_service import RelationBasedClassifierServiceBert
 import matplotlib.pyplot as plt
 
 
@@ -142,12 +142,14 @@ class TweetTree:
             # If parent tweet is deleted, ignore tweet
             if tweet_parent_id in self.tree:
                 parsed_tweet = self._parse_tweet(tweet)
-                parsed_tweet["argumentative_type"] = TweetTreeBuilder.argumentation_relation_service.predict_argumentative_relation(tweet_parent["text"], tweet["text"])
+                parsed_tweet[
+                    "argumentative_type"] = TweetTreeBuilder.argumentation_relation_service.predict_argumentative_relation(
+                    tweet_parent["text"], tweet["text"])
                 self.tree.add_node(tweet_id, attributes=parsed_tweet)
                 self.tree.add_edge(tweet_parent_id, tweet_id, color="g", weight=3)
 
                 self.metrics.set_max_min_public_metrics(parsed_tweet)
-        
+
                 if tweet_parent_id == self.root:
                     self.metrics.increment_root_sentiment(parsed_tweet["sentiment"])
                 else:
@@ -178,10 +180,8 @@ class TweetTree:
 
 
 class TweetTreeBuilder:
-  
     keyword_extraction_service = KeywordExtractor()
-    argumentation_relation_service = RelationBasedClassifierService()
-
+    argumentation_relation_service = RelationBasedClassifierServiceBert()
 
     def __init__(self, tweet_id):
         self.twitter_api_service = TwitterAPIService(
@@ -205,19 +205,21 @@ class TweetTreeBuilder:
         related_tweets = self._get_related_tweets(tweet_text)
         # related_tweets = []
         for related_tweet in related_tweets:
-            related_tweet["argumentative_type"] = TweetTreeBuilder.argumentation_relation_service.predict_argumentative_relation(tweet_text, related_tweet["text"])
+            related_tweet[
+                "argumentative_type"] = TweetTreeBuilder.argumentation_relation_service.predict_argumentative_relation(
+                tweet_text, related_tweet["text"])
             # Only retrieve 'fresh' argumentative tweets that are not replies or are retweets tweets
-            if (related_tweet["argumentative_type"] != 'neutral') and ('referenced_tweets' not in related_tweet) and (related_tweet['id'] != tweet['id']):
+            if (related_tweet["argumentative_type"] != 'neutral') and ('referenced_tweets' not in related_tweet) and (
+                    related_tweet['id'] != tweet['id']):
                 related_tweet_thread = self.twitter_api_service.get_conversation_thread(related_tweet['id'])
                 related_tweet_tree = TweetTree(related_tweet, related_tweet_thread, metrics).get_tree()
                 tweet_tree.set_tree(nx.compose(tweet_tree.get_tree(), related_tweet_tree))
                 tweet_tree.add_edge(tweet['id'], related_tweet['id'])
-
         return tweet_tree
 
     def _get_related_tweets(self, tweet):
         keyword = TweetTreeBuilder.keyword_extraction_service.get_top_keyword(tweet)
-        if keyword == "":
+        if keyword == "" or keyword is None:
             # No keyword extracted, don't query the API
             return []
         tweets_about_keyword = self.twitter_api_service.get_tweets_from_keyword(keyword)
@@ -227,7 +229,6 @@ class TweetTreeBuilder:
 
     def get_tweet_tree(self):
         return self.tweet_tree
-
 
 # tweet_tree = TweetTreeBuilder(1496855592027275273).get_tweet_tree()
 # root = tweet_tree.get_root()

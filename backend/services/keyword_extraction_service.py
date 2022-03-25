@@ -5,7 +5,7 @@ from transformers import AutoModel, AutoTokenizer
 from textblob import TextBlob
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
-from backend.services.utils.preprocessor_util import preprocess
+from backend.services.utils.preprocessor import preprocess
 
 
 class IKeywordExtractor(Interface):
@@ -116,15 +116,15 @@ class KeywordExtractor(implements(IKeywordExtractor)):
 
     def get_keywords(self, tweet):
         try:
-            KeywordExtractor.bertKeywordExtractor.get_keywords(tweet)
+            return KeywordExtractor.bertKeywordExtractor.get_keywords(tweet)
         except:
-            KeywordExtractor.yakeKeywordExtractor.get_keywords(tweet)
+            return KeywordExtractor.yakeKeywordExtractor.get_keywords(tweet)
 
     def get_top_keyword(self, tweet):
         try:
-            KeywordExtractor.bertKeywordExtractor.get_top_keyword(tweet)
+            return KeywordExtractor.bertKeywordExtractor.get_top_keyword(tweet)
         except:
-            KeywordExtractor.yakeKeywordExtractor.get_top_keyword(tweet)
+            return KeywordExtractor.yakeKeywordExtractor.get_top_keyword(tweet)
 
 # tweet = "chocolate cake perfection https://t.co/a6XHwgLy5a"
 # yake_keyword_extractor = YakeKeywordExtractor()

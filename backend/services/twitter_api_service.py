@@ -74,10 +74,10 @@ class TwitterAPIService:
 
         return conversation_thread
 
-    def get_tweets_from_keyword(self, keyword, number_of_tweets=5):
+    def get_tweets_from_keyword(self, keyword, number_of_tweets=100):
         search_query = f"{keyword} lang:en -is:retweet -is:reply -is:quote"
         tweet_fields = "id,text,public_metrics"
-        search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields, max_results=100)
+        search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields, max_results=number_of_tweets)
 
         tweets = []
         for page in search_result:
@@ -99,8 +99,3 @@ class TwitterAPIService:
 
         return tweets
 
-
-# api = TwitterAPIService(
-#     "AAAAAAAAAAAAAAAAAAAAAERfVAEAAAAA0rjC0YSarrfSEE88Ar2CF5I2RYs%3DkVWG3XwyVVx2zFcu4ISP32Gu9ajF3k7EK8iNOOkSuG1EQQunUB")
-# t = api.get_tweet(1496982622693695496)
-# print(t)

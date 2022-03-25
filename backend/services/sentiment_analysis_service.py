@@ -2,7 +2,7 @@ import os
 from interface import implements, Interface
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import tokenize, download
-from backend.services.utils.preprocessor_util import preprocess
+from backend.services.utils.preprocessor import preprocess
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, TextClassificationPipeline
 
 download('punkt')
