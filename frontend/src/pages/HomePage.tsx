@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 
 import TweetSearchBar from "../components/TweetSearchBar";
+import ExampleTweets from "../components/ExampleTweets";
 
 const HomePage = () => {
   return (

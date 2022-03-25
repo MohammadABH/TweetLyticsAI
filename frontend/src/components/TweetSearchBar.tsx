@@ -40,6 +40,11 @@ const TweetSearchBar = () => {
     return error;
   };
 
+  const loadCachedExample = (tweetExample: string): void => {
+    console.log(tweetExample);
+    navigate(`/analyze/${tweetExample}`);
+  };
+
   return (
     <Container maxW="container.xl">
       <Formik
@@ -80,6 +85,32 @@ const TweetSearchBar = () => {
           </Form>
         )}
       </Formik>
+      <Container p={4}>
+        <Button
+          colorScheme="blue"
+          p={2}
+          m={2}
+          onClick={() => loadCachedExample("tweetExample1")}
+        >
+          Example 1
+        </Button>
+        <Button
+          colorScheme="blue"
+          p={2}
+          m={2}
+          onClick={() => loadCachedExample("tweetExample2")}
+        >
+          Example 2
+        </Button>
+        <Button
+          colorScheme="blue"
+          p={2}
+          m={2}
+          onClick={() => loadCachedExample("tweetExample3")}
+        >
+          Example 3
+        </Button>
+      </Container>
     </Container>
   );
 };
