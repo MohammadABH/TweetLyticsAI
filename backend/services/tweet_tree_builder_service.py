@@ -25,6 +25,7 @@ class TweetTreeMetrics:
 
         self.max_public_metrics = 0
         self.min_public_metrics = 0
+        self.min_public_metrics_set = False
 
     def set_root_tweet_sentiment(self, root_tweet_sentiment):
         self.root_tweet_sentiment = root_tweet_sentiment
@@ -37,21 +38,29 @@ class TweetTreeMetrics:
             self.strongest_argument_id = strongest_argument_id
             self.strongest_argument_score = argument_strength
 
-    def set_max_public_metrics(self, tweet):
+    def _set_max_public_metrics(self, tweet):
         score = tweet["like_count"] + tweet["retweet_count"]
 
         if score > self.max_public_metrics:
             self.max_public_metrics = score
 
-    def set_min_public_metrics(self, tweet):
+    def _set_min_public_metrics(self, tweet):
         score = tweet["like_count"] + tweet["retweet_count"]
 
         if score < self.min_public_metrics:
             self.min_public_metrics = score
+            self.min_public_metrics_set = True
+
+        # This is to ensure that it gets updated initially as it is initialized to 0. An alternative
+        # is to initialize it to an extremely large number, but that would break the ArgumentationAlgorithmService
+        # as it needs the min metric, and using a big number will break the algorithm
+        if self.min_public_metrics == 0 and self.min_public_metrics_set is False:
+            self.min_public_metrics = score
+            self.min_public_metrics_set = True
 
     def set_max_min_public_metrics(self, tweet):
-        self.set_max_public_metrics(tweet)
-        self.set_min_public_metrics(tweet)
+        self._set_max_public_metrics(tweet)
+        self._set_min_public_metrics(tweet)
 
     def increment_general_sentiment(self, sentiment_type):
         if sentiment_type == "positive":
