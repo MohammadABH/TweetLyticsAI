@@ -1,7 +1,7 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.controllers.TweetAnalyzerController import TweetAnalyzerController
+from backend.controllers.tweet_analyzer_controller import TweetAnalyzerController
 
 app = FastAPI()
 controller = TweetAnalyzerController()
@@ -31,9 +31,9 @@ def tweet_analyzer(tweet_id: int) -> dict:
 
         return {"response": response}
     except:
-        raise Exception("Oops! Something went wrong while processing your request. Make sure the Tweet ID passed is "
-                        "valid and try again later.")
-
+        raise HTTPException(status_code=500,
+                            detail="Oops! Something went wrong while processing your request. Make sure the Tweet ID passed is "
+                                   "valid and try again later.")
 
 # if __name__ == "__main__":
 #     uvicorn.run(app, host="0.0.0.0", port=8000) || pass

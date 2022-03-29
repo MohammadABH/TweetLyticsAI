@@ -24,13 +24,13 @@ class YakeKeywordExtractor(implements(IKeywordExtractor)):
 
     def get_keywords(self, tweet):
         keywords_with_scores = self.keyword_extractor.extract_keywords(tweet)
-        keywords = list(list(zip(*keywords_with_scores))[0])
+        keywords = list(list(zip(*keywords_with_scores))[0]) if len(keywords_with_scores) > 0 else []
 
         return keywords
 
     def get_top_keyword(self, tweet):
         keywords = self.get_keywords(tweet)
-        top_keyword = keywords[0]
+        top_keyword = keywords[0] if len(keywords) > 0 else None
 
         return top_keyword
 
@@ -104,8 +104,11 @@ class BertKeywordExtractor(implements(IKeywordExtractor)):
         return keywords
 
     def get_top_keyword(self, tweet):
+        if tweet == "":
+            return None
+
         keywords = self.get_keywords(tweet)
-        top_keyword = keywords[0]
+        top_keyword = keywords[0] if len(keywords) > 0 else None
 
         return top_keyword
 

@@ -1,11 +1,8 @@
 import networkx as nx
-from itertools import chain
 from networkx.readwrite import json_graph
-import json
 from backend.services.twitter_api_service import TwitterAPIService
 from backend.services.keyword_extraction_service import KeywordExtractor
 from backend.services.relation_based_classifier_service import RelationBasedClassifierServiceBert
-import matplotlib.pyplot as plt
 
 
 class TweetTreeMetrics:
@@ -230,28 +227,3 @@ class TweetTreeBuilder:
     def get_tweet_tree(self):
         return self.tweet_tree
 
-# tweet_tree = TweetTreeBuilder(1496855592027275273).get_tweet_tree()
-# root = tweet_tree.get_root()
-# data = tweet_tree.get_json()
-# print(f"Root = {root}")
-# data = json_graph.tree_data(tweet_tree.get_tree(), root=tweet_tree.get_root())
-# with open('data.json', 'w', encoding='utf-8') as f:
-#     json.dump(data, f, ensure_ascii=False, indent=4)
-
-
-# s = json.dumps(data)
-# print(s)
-# tweet_tree = tweet_tree.get_tree()
-# pos = nx.spring_layout(tweet_tree, k=0.05)
-# edges = tweet_tree.edges()
-# colors = [tweet_tree[u][v]['color'] for u,v in edges]
-# weights = [tweet_tree[u][v]['weight'] for u,v in edges]
-#
-# plt.figure(figsize = (20,20))
-# nx.draw(tweet_tree, pos=pos, cmap=plt.cm.PiYG, edge_color=colors, width=weights, linewidths=0.3, node_size=60, alpha=0.6, with_labels=False)
-# nx.draw_networkx_nodes(tweet_tree, pos=pos, node_size=300)
-# plt.show()
-# text = "chocolate"
-# api = TwitterAPIService(
-#             "AAAAAAAAAAAAAAAAAAAAAERfVAEAAAAA0rjC0YSarrfSEE88Ar2CF5I2RYs%3DkVWG3XwyVVx2zFcu4ISP32Gu9ajF3k7EK8iNOOkSuG1EQQunUB")
-# print(len(api.get_tweets_from_keyword(text)))
