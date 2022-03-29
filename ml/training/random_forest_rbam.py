@@ -37,14 +37,22 @@ class RandomForestRBAM:
 
         return df
 
-    def preprocess(self, text):
-        preprocessed_text = []
-        original_text_words = text.split(" ")
-        for word in original_text_words:
-            word = 'http' if text.startswith('http') else word  # Preprocess links
-            word = '@user' if text.startswith('@') and len(word) > 1 else word  # Preprocess user handles
-            preprocessed_text.append(word)
-        return " ".join(preprocessed_text)
+    def preprocess(self, tweet):
+        """
+        Function that preprocesses the input tweet by removing user handles and http
+        links
+
+        :param tweet: the input tweet (text) to be preprocessed
+
+        :return       pre-processed tweet
+        """
+        preprocessed_tweet = []
+        original_tweet_words = tweet.split(" ")
+        for word in original_tweet_words:
+            word = 'http' if word.startswith('http') else word  # Preprocess links
+            word = '@user' if word.startswith('@') and len(word) > 1 else word  # Preprocess twitter handles
+            preprocessed_tweet.append(word)
+        return " ".join(preprocessed_tweet)
 
     def clean(self, text):
         processed_text = self.preprocess(text)
