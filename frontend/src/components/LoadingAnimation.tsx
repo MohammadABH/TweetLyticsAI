@@ -1,9 +1,10 @@
 import React from "react";
-import { Spinner, extendTheme } from "@chakra-ui/react";
+import { Spinner } from "@chakra-ui/react";
 
 const LoadingAnimation = () => {
   return (
     <Spinner
+      data-testid="spinner"
       thickness="4px"
       speed="0.65s"
       emptyColor="gray.200"

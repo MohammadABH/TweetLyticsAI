@@ -5,7 +5,7 @@ import ErrorAlert from "../components/ErrorAlert";
 
 const PageNotFound = () => {
   return (
-    <Container>
+    <Container data-testid="page-not-found">
       <ErrorAlert
         errorMessage="404 Not Found"
         errorTitle="Page not Found!"

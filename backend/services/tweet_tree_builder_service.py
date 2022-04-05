@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 import networkx as nx
 from networkx.readwrite import json_graph
 from backend.services.twitter_api_service import TwitterAPIService
@@ -6,6 +8,10 @@ from backend.services.relation_based_classifier_service import RelationBasedClas
 
 
 class TweetTreeMetrics:
+    """
+    Class that computes the aggregated general metrics about a tweet tree argumentation model to give the
+    user some analysis without requiring them to inspect each node.
+    """
 
     def __init__(self):
         self.root_tweet_sentiment = ""
@@ -117,6 +123,9 @@ class TweetTreeMetrics:
 
 
 class TweetTree:
+    """
+    Tweet tree data structure that ensures O(1) operations, uses a networkx DiGraph internally.
+    """
 
     def __init__(self, root_tweet, conversation_thread, metrics):
         self.tree = nx.DiGraph()
@@ -140,6 +149,7 @@ class TweetTree:
                 "sentiment": tweet["sentiment"]}
 
     def _create_children(self, conversation_thread):
+        # Loop through conversation thread
         for tweet in conversation_thread:
             tweet_id = tweet['id']
             tweet_parent = tweet['referenced_tweets'][0]
@@ -147,6 +157,7 @@ class TweetTree:
 
             # If parent tweet is deleted, ignore tweet
             if tweet_parent_id in self.tree:
+                # Add the tweet to the tree
                 parsed_tweet = self._parse_tweet(tweet)
                 parsed_tweet[
                     "argumentative_type"] = TweetTreeBuilder.argumentation_relation_service.predict_argumentative_relation(
@@ -154,6 +165,7 @@ class TweetTree:
                 self.tree.add_node(tweet_id, attributes=parsed_tweet)
                 self.tree.add_edge(tweet_parent_id, tweet_id, color="g", weight=3)
 
+                # Update metrics
                 self.metrics.set_max_min_public_metrics(parsed_tweet)
 
                 if tweet_parent_id == self.root:
@@ -174,6 +186,7 @@ class TweetTree:
         return self.root
 
     def get_json(self):
+        # Encode the tweet tree and metrics in JSON
         tweet_tree_json = json_graph.tree_data(self.tree, root=self.root, ident="name")
         metrics_json = self.metrics.get_metrics()
 
@@ -186,12 +199,19 @@ class TweetTree:
 
 
 class TweetTreeBuilder:
+    """
+    Service that builds the output tweet tree argumentation model. It consists of the original tweet conversation,
+    as well as relevant and argumentatively related tweet conversations that are not within the original tweet
+    conversation. Each node computes the sentiment, their argumentative relation to its parent, its public metrics
+    and its acceptability degree if it is an argument.
+    """
     keyword_extraction_service = KeywordExtractor()
     argumentation_relation_service = RelationBasedClassifierServiceBert()
 
     def __init__(self, tweet_id):
-        self.twitter_api_service = TwitterAPIService(
-            "AAAAAAAAAAAAAAAAAAAAAERfVAEAAAAA0rjC0YSarrfSEE88Ar2CF5I2RYs%3DkVWG3XwyVVx2zFcu4ISP32Gu9ajF3k7EK8iNOOkSuG1EQQunUB")
+        load_dotenv()
+        TWITTER_API_KEY = os.getenv("TWITTER_API_KEY")
+        self.twitter_api_service = TwitterAPIService(TWITTER_API_KEY)
         self.tweet_tree = self._build_tweet_tree(tweet_id)
 
     def _build_tweet_tree(self, tweet_id):
@@ -224,10 +244,13 @@ class TweetTreeBuilder:
         return tweet_tree
 
     def _get_related_tweets(self, tweet):
+        # Extract related tweets from twitter using a keyword
         keyword = TweetTreeBuilder.keyword_extraction_service.get_top_keyword(tweet)
         if keyword == "" or keyword is None:
             # No keyword extracted, don't query the API
             return []
+
+        # Retrieve tweets that discuss the extracted keyword
         tweets_about_keyword = self.twitter_api_service.get_tweets_from_keyword(keyword)
         related_tweets = tweets_about_keyword
 

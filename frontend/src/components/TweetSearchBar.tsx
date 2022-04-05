@@ -41,7 +41,6 @@ const TweetSearchBar = () => {
   };
 
   const loadCachedExample = (tweetExample: string): void => {
-    console.log(tweetExample);
     navigate(`/analyze/${tweetExample}`);
   };
 

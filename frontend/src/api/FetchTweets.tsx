@@ -8,7 +8,7 @@ const timeout = (ms: number) => {
 };
 
 export async function fetchCachedTweets(tweetExample: string) {
-  await timeout(100);
+  await timeout(10);
   if (tweetExample === "tweetExample1") return example1;
   else if (tweetExample === "tweetExample2") return example2;
   else return example3;
@@ -16,7 +16,7 @@ export async function fetchCachedTweets(tweetExample: string) {
 
 export async function fetchTweetsApi(tweetId: string) {
   const response = await axios.get<TweetTreeAPIResponse>(
-    `http://127.0.0.1/api/analyze/${tweetId}`
+    `http://127.0.0.1:80/api/analyze/${tweetId}`
   );
   const { data: tweetsResponse } = response;
   console.log(tweetsResponse);

@@ -22,9 +22,7 @@ const TweetAnalysisPage = () => {
         const { response: tweetsResponse } = await fetchTweetsApi(tweetId);
         setTweets(tweetsResponse);
         setErrorMessage("");
-        console.log("NOT ERROR");
       } catch (error) {
-        console.log("ERROR");
         setErrorMessage(
           "Something went wrong while processing your request, make sure the Tweet URL is valid and try again!"
         );
@@ -36,7 +34,12 @@ const TweetAnalysisPage = () => {
     fetchTweets();
   }, []);
   return (
-    <TweetTree tweetId={tweetId} tweets={tweets} errorMessage={errorMessage} />
+    <TweetTree
+      tweetId={tweetId}
+      tweets={tweets}
+      errorMessage={errorMessage}
+      data-testid="tweet-tree"
+    />
   );
 };
 

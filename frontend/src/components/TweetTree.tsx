@@ -17,12 +17,12 @@ interface IProps {
 const TweetTree = ({ tweetId, tweets, errorMessage }: IProps) => {
   if (errorMessage !== "" || tweetId === undefined) {
     return (
-      <Container>
+      <Container data-testid="error">
         <ErrorAlert
           errorMessage={errorMessage}
           errorTitle="Oops, something went wrong!"
-          errorDescription="Are you sure the Tweet URL you added is valid? Perhaps its deleted? Try
-					another Tweet or come back later."
+          errorDescription={`Are you sure the Tweet URL you added is valid? Perhaps its deleted? Try
+					another Tweet or come back later. ${tweetId}`}
         />
       </Container>
     );
@@ -31,7 +31,7 @@ const TweetTree = ({ tweetId, tweets, errorMessage }: IProps) => {
   if (tweets === null) {
     return (
       <>
-        <Heading as="h1" size="xl" p={2}>
+        <Heading as="h1" size="xl" p={2} data-testid="loading">
           Please wait... Processing Tweet ID: {tweetId}
         </Heading>
         <Center>
@@ -43,7 +43,7 @@ const TweetTree = ({ tweetId, tweets, errorMessage }: IProps) => {
 
   return (
     <>
-      <Heading as="h1" size="xl" p={4}>
+      <Heading as="h1" size="xl" p={4} data-testid="success">
         Tweet Analysis Page! Reading Tweet ID:{" "}
         <Link href={`https://twitter.com/twitter/status/${tweetId}`} isExternal>
           <u>{tweetId}</u> <ExternalLinkIcon mx="2px" />

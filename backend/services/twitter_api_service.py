@@ -4,6 +4,10 @@ from backend.services.sentiment_analysis_service import SentimentAnalysis
 
 
 class TwitterAPIService:
+    """
+    Service that acts as a wrapper around the Twitter API to provide the rest of the application simple access to
+    the API. Provides high level functions to accessing information and data from the Twitter API.
+    """
 
     sentiment_analysis_service = SentimentAnalysis()
 
@@ -50,20 +54,24 @@ class TwitterAPIService:
                 "sentiment": self._get_tweet_sentiment(tweet["text"])}
 
     def get_tweet(self, tweet_id):
+        # Fetch tweet from Twitter API
         tweet_lookup = self.twarc.tweet_lookup([tweet_id])
 
         for current_tweet in tweet_lookup:
             tweet = current_tweet
 
+        # Parse the tweet
         parsed_tweet = self._parse_tweet(tweet['data'][0])
 
         return parsed_tweet
 
     def get_conversation_thread(self, conversation_id):
+        # Query Twitter API for the conversation thread using conversation_id, only allow English resukts
         search_query = f"conversation_id: {conversation_id} lang:en"
         tweet_fields = "in_reply_to_user_id,public_metrics"
         search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields)
 
+        # Parse the output to a list
         conversation_thread = []
         for page in search_result:
             for tweet in ensure_flattened(page):
@@ -75,10 +83,13 @@ class TwitterAPIService:
         return conversation_thread
 
     def get_tweets_from_keyword(self, keyword, number_of_tweets=15):
+        # Query the Twitter API for (default 15) tweets that discuss a certain keyword
+        # The tweet must be original, not a retweet, a reply or quote
         search_query = f"{keyword} lang:en -is:retweet -is:reply -is:quote"
         tweet_fields = "id,text,public_metrics"
         search_result = self.twarc.search_recent(query=search_query, tweet_fields=tweet_fields, max_results=number_of_tweets)
 
+        # Parse the tweets
         tweets = []
         for page in search_result:
             for tweet in ensure_flattened(page):

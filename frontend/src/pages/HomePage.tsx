@@ -8,12 +8,11 @@ import {
 } from "@chakra-ui/react";
 
 import TweetSearchBar from "../components/TweetSearchBar";
-import ExampleTweets from "../components/ExampleTweets";
 
 const HomePage = () => {
   return (
     <>
-      <Heading as="h1" size="4xl">
+      <Heading as="h1" size="4xl" data-testid="home-page">
         TweetLyticsAI
       </Heading>
       <TweetSearchBar />

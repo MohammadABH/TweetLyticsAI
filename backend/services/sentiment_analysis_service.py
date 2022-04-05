@@ -1,5 +1,4 @@
 import os
-from interface import implements, Interface
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import tokenize, download
 from backend.services.utils.preprocessor import preprocess
@@ -8,7 +7,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Text
 download('punkt')
 
 
-class ISentimentAnalysis(Interface):
+class ISentimentAnalysis:
 
     def predict_sentiment(self, tweet):
         """
@@ -23,7 +22,7 @@ class ISentimentAnalysis(Interface):
         pass
 
 
-class VaderSentimentAnalysis(implements(ISentimentAnalysis)):
+class VaderSentimentAnalysis(ISentimentAnalysis):
     # Vader sentiment analysis object
     vader_analyzer = SentimentIntensityAnalyzer()
 
@@ -76,7 +75,7 @@ class VaderSentimentAnalysis(implements(ISentimentAnalysis)):
         return self._get_sentiment_label(overall_tweet_sentiment)
 
 
-class BertweetSentimentAnalysis(implements(ISentimentAnalysis)):
+class BertweetSentimentAnalysis(ISentimentAnalysis):
     dirname = os.path.dirname(__file__)
     PATH = os.path.join(dirname, '../models/sentiment-analysis')
 
@@ -116,7 +115,7 @@ class BertweetSentimentAnalysis(implements(ISentimentAnalysis)):
         return classification_label
 
 
-class SentimentAnalysis(implements(ISentimentAnalysis)):
+class SentimentAnalysis(ISentimentAnalysis):
 
     bertSentimentAnalysis = BertweetSentimentAnalysis()
     vaderSentimentAnalysis = VaderSentimentAnalysis()
@@ -135,8 +134,3 @@ class SentimentAnalysis(implements(ISentimentAnalysis)):
         except:
             return SentimentAnalysis.vaderSentimentAnalysis.predict_sentiment(tweet)
 
-# text = "I love you"
-# bertweet_sentiment = BertweetSentimentAnalysis()
-# vader = VaderSentimentAnalysis()
-# print(vader.predict_sentiment((text)))
-# print(bertweet_sentiment.predict_sentiment(text))

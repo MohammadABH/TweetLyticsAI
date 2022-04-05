@@ -18,6 +18,7 @@ const HomeButton = ({ onClick }: IProps) => {
       color="current"
       marginLeft="2"
       onClick={onClick}
+      data-testid="home-button"
     />
   );
 };

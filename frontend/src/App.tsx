@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <ChakraProvider theme={theme}>
       <BrowserRouter>
-        <Box textAlign="center" fontSize="xl">
+        <Box textAlign="center" fontSize="xl" data-testid="app">
           <Grid minH="100vh" p={3}>
             <Box justifySelf="flex-end">
               <Navbar />
