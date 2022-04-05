@@ -1,5 +1,20 @@
 import React from "react";
-import { Center, Container, Heading, VStack, Link } from "@chakra-ui/react";
+import {
+  Center,
+  Container,
+  Heading,
+  VStack,
+  Link,
+  Button,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalCloseButton,
+  ModalBody,
+  ModalFooter,
+  useDisclosure,
+} from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 import ErrorAlert from "./ErrorAlert";
@@ -15,6 +30,8 @@ interface IProps {
 }
 
 const TweetTree = ({ tweetId, tweets, errorMessage }: IProps) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   if (errorMessage !== "" || tweetId === undefined) {
     return (
       <Container data-testid="error">
@@ -65,6 +82,22 @@ const TweetTree = ({ tweetId, tweets, errorMessage }: IProps) => {
         <Heading as="h2" size="m" p={2}>
           Tweet Visualization
         </Heading>
+        <Button colorScheme="teal" p={2} onClick={onOpen}>
+          Help! How can I unserstand the visualisation better?
+        </Button>
+        <Modal onClose={onClose} size="xl" isOpen={isOpen}>
+          <ModalOverlay />
+          <ModalContent>
+            <ModalHeader>
+              How can I unserstand the visualisation better?
+            </ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>Don't Worry!</ModalBody>
+            <ModalFooter>
+              <Button onClick={onClose}>Close</Button>
+            </ModalFooter>
+          </ModalContent>
+        </Modal>
         <TweetTreeVisualization tweetTree={tweets.tweet_tree} />
       </VStack>
     </>
