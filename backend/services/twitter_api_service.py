@@ -1,5 +1,6 @@
 from twarc.client2 import Twarc2
 from twarc.expansions import ensure_flattened
+
 from backend.services.sentiment_analysis_service import SentimentAnalysis
 
 
@@ -102,3 +103,6 @@ class TwitterAPIService:
 
         return tweets
 
+
+if __name__ == "__main__":
+    pass

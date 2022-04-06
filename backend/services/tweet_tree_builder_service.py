@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import networkx as nx
 from networkx.readwrite import json_graph
+
 from backend.services.twitter_api_service import TwitterAPIService
 from backend.services.keyword_extraction_service import KeywordExtractor
 from backend.services.relation_based_classifier_service import RelationBasedClassifierServiceBert
@@ -259,3 +260,6 @@ class TweetTreeBuilder:
     def get_tweet_tree(self):
         return self.tweet_tree
 
+
+if __name__ == "__main__":
+    pass

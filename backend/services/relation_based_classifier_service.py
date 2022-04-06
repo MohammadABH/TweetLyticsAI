@@ -64,3 +64,7 @@ class RelationBasedClassifierServiceBert(IRelationBasedClassifierService):
         classification_label = best_prediction['label']
 
         return classification_label
+
+
+if __name__ == "__main__":
+    pass

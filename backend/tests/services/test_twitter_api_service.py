@@ -1,5 +1,6 @@
-from backend.services.twitter_api_service import TwitterAPIService
 from twarc.client2 import Twarc2
+
+from backend.services.twitter_api_service import TwitterAPIService
 
 
 class TestTwitterAPIService:

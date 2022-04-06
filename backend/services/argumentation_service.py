@@ -62,10 +62,14 @@ class ArgumentationAlgorithmService:
                 attackers_score += score
 
         strength_child = supporters_score - attackers_score
-        degree = 1 - ((1 - self._base_strength(tweet) ** 2) / (1 + (self._base_strength(tweet) * (2 ** strength_child))))
+        degree = 1 - (
+                    (1 - self._base_strength(tweet) ** 2) / (1 + (self._base_strength(tweet) * (2 ** strength_child))))
         tweet["attributes"]["acceptability"] = degree
 
         self.tweet_tree_metrics.set_strongest_argument_id(tweet["attributes"]["id"], degree)
 
         return degree
 
+
+if __name__ == "__main__":
+    pass

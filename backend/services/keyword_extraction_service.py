@@ -4,6 +4,7 @@ from transformers import AutoModel, AutoTokenizer
 from textblob import TextBlob
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
+
 from backend.services.utils.preprocessor import preprocess
 
 
@@ -230,3 +231,6 @@ class KeywordExtractor(IKeywordExtractor):
             # Extract keywords using YAKE if BERTweet throws an error
             return KeywordExtractor.yakeKeywordExtractor.get_top_keyword(tweet)
 
+
+if __name__ == "__main__":
+    pass

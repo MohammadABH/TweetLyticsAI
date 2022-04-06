@@ -17,3 +17,7 @@ def preprocess(tweet):
 
     preprocessed_tweet_string = " ".join(preprocessed_tweet)
     return preprocessed_tweet_string
+
+
+if __name__ == "__main__":
+    pass

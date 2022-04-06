@@ -2,10 +2,10 @@ import os
 import sys
 import pandas as pd
 import numpy as np
+import scipy.sparse as sp
 from nltk import download, word_tokenize, corpus, WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-import scipy.sparse as sp
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, PredefinedSplit
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -45,7 +45,7 @@ class RandomForestRBAM:
 
         return df
 
-    def preprocess(tweet):
+    def preprocess(self, tweet):
         """
         Function that preprocesses the input tweet by removing user handles and http
         links

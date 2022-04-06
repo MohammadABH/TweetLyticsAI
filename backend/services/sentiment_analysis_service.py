@@ -1,8 +1,10 @@
 import os
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import tokenize, download
-from backend.services.utils.preprocessor import preprocess
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, TextClassificationPipeline
+
+from backend.services.utils.preprocessor import preprocess
+
 
 download('punkt')
 
@@ -134,3 +136,6 @@ class SentimentAnalysis(ISentimentAnalysis):
         except:
             return SentimentAnalysis.vaderSentimentAnalysis.predict_sentiment(tweet)
 
+
+if __name__ == "__main__":
+    pass

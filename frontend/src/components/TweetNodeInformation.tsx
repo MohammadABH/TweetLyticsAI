@@ -30,7 +30,12 @@ const TweetNodeInformation = ({
   handleCloseModal,
 }: IProps) => {
   return (
-    <Modal onClose={handleCloseModal} isOpen={isOpen} isCentered>
+    <Modal
+      onClose={handleCloseModal}
+      isOpen={isOpen}
+      scrollBehavior="outside"
+      isCentered
+    >
       <ModalOverlay />
       <ModalContent>
         <ModalHeader alignSelf={"center"}>Tweet Data</ModalHeader>
