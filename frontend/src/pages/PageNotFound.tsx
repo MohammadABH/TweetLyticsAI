@@ -1,5 +1,5 @@
-import { Container } from "@chakra-ui/react";
 import React from "react";
+import { Container } from "@chakra-ui/react";
 
 import ErrorAlert from "../components/ErrorAlert";
 

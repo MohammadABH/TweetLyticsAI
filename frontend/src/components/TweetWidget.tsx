@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Box, Center, Text } from "@chakra-ui/react";
+import React from "react";
+import { Text } from "@chakra-ui/react";
 import { Tweet } from "react-twitter-widgets";
 
 interface IProps {

@@ -1,4 +1,5 @@
 import axios from "axios";
+
 import example1 from "../mock_data/example1.json";
 import example2 from "../mock_data/example2.json";
 import example3 from "../mock_data/example3.json";
