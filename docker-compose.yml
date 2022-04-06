@@ -1,0 +1,19 @@
+version: "1"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    image: "mohammadabh/tweetlyticsai-backend"
+    ports:
+      - "80:80"
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    image: "mohammadabh/tweetlyticsai-frontend"
+    ports:
+      - "3000:3000"
+    links:
+      - "backend:be"

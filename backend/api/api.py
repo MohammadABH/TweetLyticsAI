@@ -1,8 +1,9 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.controllers.TweetAnalyzerController import TweetAnalyzerController
+from backend.controllers.tweet_analyzer_controller import TweetAnalyzerController
 
+# Create the API and handle CORS middleware config
 app = FastAPI()
 controller = TweetAnalyzerController()
 origins = [
@@ -21,19 +22,24 @@ app.add_middleware(
 
 @app.get("/api/health", tags=["health"])
 async def health_check() -> dict:
+    """
+    :return: healthy status endpoint
+    """
     return {"response": "API is up and running!"}
 
 
 @app.get("/api/analyze/{tweet_id}", tags=["analyze"])
 def tweet_analyzer(tweet_id: int) -> dict:
+    """
+    :param tweet_id:    the tweet ID to compute the analysis on
+    :return:            argumentation model and analysis of the input tweet
+    """
     try:
         response = controller.analyze_tweet(tweet_id)
 
         return {"response": response}
     except:
-        raise Exception("Oops! Something went wrong while processing your request. Make sure the Tweet ID passed is "
-                        "valid and try again later.")
+        raise HTTPException(status_code=500,
+                            detail="Oops! Something went wrong while processing your request. Make sure the Tweet ID "
+                                   "passed is valid and try again later.")
 
-
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=8000) || pass

@@ -1,0 +1,3420 @@
+{
+	"response": {
+		"tweet_tree": {
+			"attributes": {
+				"id": "1508926853217665024",
+				"text": "Harry Maguire deserves every boo he gets. A Sunday league player with the ego of Sergio Ramos. One of the most unlikeable players of all time.",
+				"retweet_count": 683,
+				"reply_count": 124,
+				"like_count": 5443,
+				"quote_count": 79,
+				"sentiment": "negative",
+				"argumentative_type": "none",
+				"acceptability": 0.4679195825594268
+			},
+			"name": "1508926853217665024",
+			"children": [
+				{
+					"attributes": {
+						"id": "1508958438033928197",
+						"text": "@CarlMillar7 Says the most unlikable twitter user of all time.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.007300270072992721
+					},
+					"name": "1508958438033928197"
+				},
+				{
+					"attributes": {
+						"id": "1508964293882040327",
+						"text": "@CarlMillar7 Lies",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1508964293882040327"
+				},
+				{
+					"attributes": {
+						"id": "1508970846211215370",
+						"text": "@CarlMillar7 No player deserves to get booed",
+						"retweet_count": 0,
+						"reply_count": 8,
+						"like_count": 13,
+						"quote_count": 3,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.047665093883590526
+					},
+					"name": "1508970846211215370",
+					"children": [
+						{
+							"attributes": {
+								"id": "1508985948192837635",
+								"text": "@mo24_187 @CarlMillar7 They do if they play badly",
+								"retweet_count": 0,
+								"reply_count": 2,
+								"like_count": 156,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1508985948192837635",
+							"children": [
+								{
+									"attributes": {
+										"id": "1508996138862583811",
+										"text": "@mcfclorcan @CarlMillar7 Idc how bad he is, u think a player deserves to get booed at home representing his country? Come on now.",
+										"retweet_count": 0,
+										"reply_count": 2,
+										"like_count": 2,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1508996138862583811",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509001915291553797",
+												"text": "@mo24_187 @CarlMillar7 Again, if they are representing a nation and they aren’t playing good enough then the fans have every right to boo them",
+												"retweet_count": 0,
+												"reply_count": 3,
+												"like_count": 23,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "attack"
+											},
+											"name": "1509001915291553797",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509023530163191808",
+														"text": "@mcfclorcan @mo24_187 @CarlMillar7 If u r representing your country than u should give your 1000% in every game and ofcourse there can be a bad game but it should not be there will be good game some day! and u pretend u r very good player is more bad thing then u deserve to get booed bcz they came to see u play",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 1,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509023530163191808",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509038394864660482",
+																"text": "@beingarhaankhan @mcfclorcan @mo24_187 @CarlMillar7 People does not boo a player based on one game.",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 2,
+																"quote_count": 0,
+																"sentiment": "neutral",
+																"argumentative_type": "attack"
+															},
+															"name": "1509038394864660482",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509083170553008131",
+																		"text": "@BkmsShark @mcfclorcan @mo24_187 @CarlMillar7 That's what I said bro,",
+																		"retweet_count": 0,
+																		"reply_count": 0,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "neutral",
+																		"argumentative_type": "support"
+																	},
+																	"name": "1509083170553008131"
+																}
+															]
+														}
+													]
+												},
+												{
+													"attributes": {
+														"id": "1509025929451954176",
+														"text": "@mcfclorcan @mo24_187 @CarlMillar7 😂😂Just shows how crazy England fans are because Harry has been class for England lol",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 1,
+														"quote_count": 0,
+														"sentiment": "positive",
+														"argumentative_type": "support"
+													},
+													"name": "1509025929451954176"
+												},
+												{
+													"attributes": {
+														"id": "1509053227899269120",
+														"text": "@mcfclorcan @mo24_187 @CarlMillar7 He's good whenever he puts an England shirt on",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "positive",
+														"argumentative_type": "neutral"
+													},
+													"name": "1509053227899269120"
+												}
+											]
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509146741999910912",
+										"text": "@mcfclorcan @mo24_187 @CarlMillar7 has he actually ever had a bad game for england? even one?",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509146741999910912",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509149466359734275",
+												"text": "@mufc_jacques @mo24_187 @CarlMillar7 What about when he lost bonnuci on the corner and then he equalised in the euros final",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "neutral",
+												"argumentative_type": "neutral"
+											},
+											"name": "1509149466359734275",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509151280421384192",
+														"text": "@mcfclorcan @mo24_187 @CarlMillar7 imagine being so braindead to actually blame that goal on him 🤣🤣🤣",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509151280421384192",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509153729869713408",
+																"text": "@mufc_jacques @mo24_187 @CarlMillar7 He lost his man, he didn’t track the run, his man scored. Literally his fault",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "neutral"
+															},
+															"name": "1509153729869713408",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509154493736402958",
+																		"text": "@mcfclorcan @mo24_187 @CarlMillar7 no way u retweet alpha 🤣🤣🤣🤣 https://t.co/EECKMgnmSb",
+																		"retweet_count": 0,
+																		"reply_count": 0,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "neutral",
+																		"argumentative_type": "attack"
+																	},
+																	"name": "1509154493736402958"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1508989970081587204",
+								"text": "@mo24_187 @CarlMillar7 Yes they do",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "support",
+								"acceptability": 0.007300270072992721
+							},
+							"name": "1508989970081587204"
+						},
+						{
+							"attributes": {
+								"id": "1509042752696295428",
+								"text": "@mo24_187 @CarlMillar7 Why not? There in such a privileged position and these days pampered beyond belief. What other mechanism does fans have to express their frustration?",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 4,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509042752696295428"
+						},
+						{
+							"attributes": {
+								"id": "1509082526761029632",
+								"text": "@mo24_187 @CarlMillar7 you on drugs pal?",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509082526761029632"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1508974763078729729",
+						"text": "@CarlMillar7 U r a knob",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.00365063503649643
+					},
+					"name": "1508974763078729729"
+				},
+				{
+					"attributes": {
+						"id": "1508975656163581958",
+						"text": "@CarlMillar7 Found the virgin",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 7,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1508975656163581958"
+				},
+				{
+					"attributes": {
+						"id": "1508979265244643336",
+						"text": "@CarlMillar7 Thank you bro - all these idiots here backing Harry Maguire as if they are married to him - morons, Maguire is a cancer to united and England.",
+						"retweet_count": 1,
+						"reply_count": 1,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.01459954997438695
+					},
+					"name": "1508979265244643336",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509054534391197699",
+								"text": "@AmitShankar94 @CarlMillar7 Cancer to united.. Not england...",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1509054534391197699"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1508988130463866881",
+						"text": "@CarlMillar7 Piss off",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.007300270072992721
+					},
+					"name": "1508988130463866881"
+				},
+				{
+					"attributes": {
+						"id": "1508996244823330826",
+						"text": "@CarlMillar7 Ramos has more major trophies than chelsea",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 4,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 0.014599540145985301
+					},
+					"name": "1508996244823330826",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509030390425858060",
+								"text": "@QuislingT @CarlMillar7 He’s certainly very competitive, but I don’t know so much about the ego thing…",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 5,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509030390425858060"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1508996498092085259",
+						"text": "@CarlMillar7 Utd fans can boo him at old Trafford as far as England is concerned he’s never let them down.",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 15,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "neutral"
+					},
+					"name": "1508996498092085259",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509014069159809031",
+								"text": "@marcojasp @CarlMillar7 \"never let England down\" 🤦‍♂️\nhttps://t.co/K07EZjlW30",
+								"retweet_count": 5,
+								"reply_count": 4,
+								"like_count": 72,
+								"quote_count": 5,
+								"sentiment": "negative",
+								"argumentative_type": "attack"
+							},
+							"name": "1509014069159809031",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509048222647730189",
+										"text": "@jsolloso @marcojasp @CarlMillar7 He was protecting his own sister ffs",
+										"retweet_count": 1,
+										"reply_count": 1,
+										"like_count": 20,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509048222647730189",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509062819265880065",
+												"text": "@Unitedaryan17 @jsolloso @marcojasp @CarlMillar7 By attacking and bribing the police?",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 2,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "neutral"
+											},
+											"name": "1509062819265880065",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509064389273751557",
+														"text": "@kristiyanevt @jsolloso @marcojasp @CarlMillar7 Fake news he didn't bribe he punched the police man",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 5,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509064389273751557",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509065468790947840",
+																"text": "@Unitedaryan17 @kristiyanevt @marcojasp @CarlMillar7 Because that's better 🤦‍♂️",
+																"retweet_count": 0,
+																"reply_count": 2,
+																"like_count": 11,
+																"quote_count": 1,
+																"sentiment": "negative",
+																"argumentative_type": "attack"
+															},
+															"name": "1509065468790947840",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509065734793543681",
+																		"text": "@jsolloso @kristiyanevt @marcojasp @CarlMillar7 Where's letting down the country here?",
+																		"retweet_count": 0,
+																		"reply_count": 1,
+																		"like_count": 6,
+																		"quote_count": 0,
+																		"sentiment": "negative",
+																		"argumentative_type": "neutral"
+																	},
+																	"name": "1509065734793543681",
+																	"children": [
+																		{
+																			"attributes": {
+																				"id": "1509071504843153416",
+																				"text": "@Unitedaryan17 @jsolloso @marcojasp @CarlMillar7 Just assume he let down his country and move on. Don’t defend this disgusting scum",
+																				"retweet_count": 0,
+																				"reply_count": 1,
+																				"like_count": 1,
+																				"quote_count": 0,
+																				"sentiment": "negative",
+																				"argumentative_type": "attack"
+																			},
+																			"name": "1509071504843153416"
+																		}
+																	]
+																},
+																{
+																	"attributes": {
+																		"id": "1509118494377394177",
+																		"text": "@jsolloso @Unitedaryan17 @kristiyanevt @marcojasp @CarlMillar7 It is better",
+																		"retweet_count": 0,
+																		"reply_count": 0,
+																		"like_count": 2,
+																		"quote_count": 0,
+																		"sentiment": "positive",
+																		"argumentative_type": "neutral"
+																	},
+																	"name": "1509118494377394177"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509060795321171972",
+										"text": "@jsolloso @CarlMillar7 This has nothing to do with his England performances 🤦‍♂️",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 7,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509060795321171972",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509065585447120898",
+												"text": "@marcojasp @CarlMillar7 It has a lot to do with it. It's not a good example for the team.",
+												"retweet_count": 0,
+												"reply_count": 2,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "attack"
+											},
+											"name": "1509065585447120898",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509069060654485508",
+														"text": "@jsolloso @marcojasp @CarlMillar7 And yet he's still world class for England and hugely important to the team. Seriously pipe down mate stop embarrasing yourself.",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 4,
+														"quote_count": 0,
+														"sentiment": "positive",
+														"argumentative_type": "attack"
+													},
+													"name": "1509069060654485508"
+												},
+												{
+													"attributes": {
+														"id": "1509141331980939264",
+														"text": "@jsolloso @marcojasp @CarlMillar7 Who gives a shit about his personal life?",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 1,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "neutral"
+													},
+													"name": "1509141331980939264"
+												}
+											]
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509066183093506048",
+										"text": "@jsolloso @marcojasp @CarlMillar7 Social media monkeys like getting on peoples backs. Always trying to ride on someone else’s coat tails as they’re too lazy to do anything productive themselves.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 5,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "support"
+									},
+									"name": "1509066183093506048",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509133636745969671",
+												"text": "@Burnoburns @jsolloso @marcojasp @CarlMillar7 Exactly this. They use footballers as punching bags for their own life shortcomings.",
+												"retweet_count": 0,
+												"reply_count": 0,
+												"like_count": 1,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "support"
+											},
+											"name": "1509133636745969671"
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509100137641123844",
+										"text": "@jsolloso @marcojasp @CarlMillar7 protecting your family is a bad thing now? I’ll batter your sister will u not do anything about it?",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509100137641123844"
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1508999311790682112",
+						"text": "@CarlMillar7 People forgetting he cupped his ears in a game against Albania, which was clearly targeted at Utd fans. Not like the guy is 100% innocent",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 34,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1508999311790682112",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509016731569823744",
+								"text": "@Weslast @CarlMillar7 No it was not targeted at United fans you absolute sausage..",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack"
+							},
+							"name": "1509016731569823744"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509000025837240326",
+						"text": "@CarlMillar7 And you know him personally to make that assessment? What a muppet",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509000025837240326"
+				},
+				{
+					"attributes": {
+						"id": "1509000351352909824",
+						"text": "@CarlMillar7 Unnecessary abuse is uncalled for. But that being said, I can criticise the HELL out of him. Poor club form, poor mentality, not a captain, can't play a high line pressing football. Southgate has favourites and Maguire is one of them.",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 91,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509000351352909824",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509142062024867840",
+								"text": "@AnimeInsiders @CarlMillar7 Maguire fits England better than man united. Southgate plays a deeper block. It fits maguire. His lack of pace doesn’t get exposed. Since united want to attack, he gets left 1 v 1 in a lot of space. That’s when he gets exposed",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509142062024867840"
+						},
+						{
+							"attributes": {
+								"id": "1509142158997139463",
+								"text": "@AnimeInsiders @CarlMillar7 That’s why maguire was class at Leicester. Similar system. He just isn’t fast enough to chase quick strikers and wingers",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "support"
+							},
+							"name": "1509142158997139463"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509005396681232390",
+						"text": "@CarlMillar7 Where did this ego argument came from?\nDon't tell me it's another agenda brought up by goldshite🤦",
+						"retweet_count": 1,
+						"reply_count": 6,
+						"like_count": 151,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.5547454154269382
+					},
+					"name": "1509005396681232390",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509018515634008065",
+								"text": "@Harry188_UTD @CarlMillar7 Well if the rumours are to believed he refuses to step down as Utd Captain because he thinks he deserves it; he can also be regularly seen scowling at his teammates if they make a mistake even tho he makes mistakes more often.",
+								"retweet_count": 1,
+								"reply_count": 3,
+								"like_count": 72,
+								"quote_count": 1,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509018515634008065",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509018666964516868",
+										"text": "@Harry188_UTD @CarlMillar7 I mean I don’t think he has the ego of Sergio Ramos, but he very likely thinks of himself as bigger than he actually is.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 13,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509018666964516868"
+								},
+								{
+									"attributes": {
+										"id": "1509046308920770565",
+										"text": "@throwaway693715 @Harry188_UTD @CarlMillar7 Sounds like bs. You don't get asked to step down as Captain you get it taken off you if deemed necessary.",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 4,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509046308920770565",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509047079183679488",
+												"text": "@mbellam2 @Harry188_UTD @CarlMillar7 Yeah, the board protects him so they wouldn’t have asked him this. I think it could be that his teammates or the media have questioned his leadership and stuff, and also with all the hate he gets. Might be in light of all of that he’s still refused to voluntarily give up, but idk",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 1,
+												"quote_count": 0,
+												"sentiment": "neutral",
+												"argumentative_type": "support"
+											},
+											"name": "1509047079183679488",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509072280177057793",
+														"text": "@throwaway693715 @mbellam2 @Harry188_UTD @CarlMillar7 Conspiracy theories at best 🤣 bet you think 5g phone masts are causing cancer, and the COVID-19 vaccine is a government tracker.. weirdo",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 2,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "support"
+													},
+													"name": "1509072280177057793",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509132898993160195",
+																"text": "@Crumpsalcrusade @throwaway693715 @mbellam2 @Harry188_UTD @CarlMillar7 I bet he does😂😂",
+																"retweet_count": 0,
+																"reply_count": 0,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "neutral",
+																"argumentative_type": "support"
+															},
+															"name": "1509132898993160195"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509055481981149186",
+										"text": "@throwaway693715 @Harry188_UTD @CarlMillar7 U said it yourself.... \"rumours\"",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 3,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509055481981149186"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1509067578475491332",
+								"text": "@Harry188_UTD @CarlMillar7 Maybe doing this celebration a few days after the Manchester Derby defeat where he was awful https://t.co/bVvjVDcXeH",
+								"retweet_count": 1,
+								"reply_count": 3,
+								"like_count": 273,
+								"quote_count": 2,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509067578475491332",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509110754552778759",
+										"text": "@PunditAngry @Harry188_UTD @CarlMillar7 Y'all  moronic",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509110754552778759"
+								},
+								{
+									"attributes": {
+										"id": "1509133476901138438",
+										"text": "@PunditAngry @Harry188_UTD @CarlMillar7 Man scored and shouldn’t celebrate? Log off",
+										"retweet_count": 0,
+										"reply_count": 2,
+										"like_count": 8,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509133476901138438",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509135800142905351",
+												"text": "@khaccieh @PunditAngry @Harry188_UTD @CarlMillar7 It’s the way he celebrated..",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 5,
+												"quote_count": 0,
+												"sentiment": "positive",
+												"argumentative_type": "attack"
+											},
+											"name": "1509135800142905351",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509148788560175108",
+														"text": "@bmlfc8 @PunditAngry @Harry188_UTD @CarlMillar7 We celebrating a certain way now?",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "positive",
+														"argumentative_type": "neutral"
+													},
+													"name": "1509148788560175108"
+												}
+											]
+										},
+										{
+											"attributes": {
+												"id": "1509144867913572352",
+												"text": "@khaccieh @Harry188_UTD @CarlMillar7 In a 5-0 win against Albania 3 days after been wiped off the pitch by City? A few days before getting sent off in a 4-1 defeat at Watford.\n\nYeah I'd rather listen to Keane and Scholes who were unhappy with it too",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 7,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "attack"
+											},
+											"name": "1509144867913572352",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509148647254110214",
+														"text": "@PunditAngry @Harry188_UTD @CarlMillar7 Yea, I lost a match. I shall not celebrate any goal. After all, I’m the first person who’s lost a match. 🤡",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "support"
+													},
+													"name": "1509148647254110214",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509149974793277444",
+																"text": "@khaccieh @PunditAngry @Harry188_UTD @CarlMillar7 If he celebrate fine not putting hand on his ears for the fans when he is absolutely bang average this season captain of Manchester United",
+																"retweet_count": 0,
+																"reply_count": 0,
+																"like_count": 4,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "neutral"
+															},
+															"name": "1509149974793277444"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509140411327131648",
+										"text": "@PunditAngry @Harry188_UTD @CarlMillar7 Ego??!? The guy takes time out his life to help support and give sick kids their dreams. You silly pr1ck https://t.co/w2jdAR26G1",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509140411327131648",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509145183530762240",
+												"text": "@fergiesperch @Harry188_UTD @CarlMillar7 You mean the same kid almost every premier league player has met in the last few months. These are club assignments not off his own back. Crap example pal",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "attack"
+											},
+											"name": "1509145183530762240",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509145858679488517",
+														"text": "@PunditAngry @Harry188_UTD @CarlMillar7 Shut up you spec. Go see what river says about him. Maguire was the first one you weird kiddy fiddler",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509145858679488517",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509151381344686084",
+																"text": "@fergiesperch @Harry188_UTD @CarlMillar7 Not sure why you're getting wound up?\n\nYou happy with the way he's played for United this season?",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "neutral",
+																"argumentative_type": "attack"
+															},
+															"name": "1509151381344686084",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509151903590105092",
+																		"text": "@PunditAngry @Harry188_UTD @CarlMillar7 What the F you talking about?? Youre talking sh1te saying hes got an ego cause he celebrated a goal 🤦‍♂️😭 how dense are you...",
+																		"retweet_count": 0,
+																		"reply_count": 0,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "negative",
+																		"argumentative_type": "attack"
+																	},
+																	"name": "1509151903590105092"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1509122884710678528",
+								"text": "@Harry188_UTD Gets family members to attack Twitter users when he plays shite. The celebration against the mighty Albania. The stuff he came off with when he was arrested. Threw the captains armband on the floor after getting sent off for #MUFC. I could go on and on about this ego maniac",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509122884710678528"
+						},
+						{
+							"attributes": {
+								"id": "1509127451368169474",
+								"text": "@Harry188_UTD @CarlMillar7 Ask any Leicester fan if they think he has a massive ego , can’t think of one Leicester fan who was bothered he was going.         £85 million 😂😂😂",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509127451368169474"
+						},
+						{
+							"attributes": {
+								"id": "1509144721280618497",
+								"text": "@Harry188_UTD @CarlMillar7 He posts his own passing stats on social media then when pressed about his terrible stats he starts questioning the intelligence of those who use stats!\n\nHe scores a goal against Albania and celebrates like he’s shut up all his critics, then gets sent off 2 days later.",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509144721280618497",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509145459587223558",
+										"text": "@Harry188_UTD @CarlMillar7 He takes so much time on the ball/ constantly puts Utd in danger because for some reason he thinks he’s good on the ball?\n\nFans want to make their opinions known seeing as he’s seemingly exempt from criticism from the English media. Not like he’s been booed for being good 😂",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "support"
+									},
+									"name": "1509145459587223558"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1509149304660930565",
+								"text": "@Harry188_UTD @CarlMillar7 What a load of rubbish.",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1509149304660930565",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509150798520848387",
+										"text": "@_FutboIOscar @CarlMillar7 What is?\nThe Boos? Yeah",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509150798520848387"
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509022442643095553",
+						"text": "@CarlMillar7 Nah hes very likeable for non english or non utd fans",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "attack",
+						"acceptability": 0.007300270072992721
+					},
+					"name": "1509022442643095553"
+				},
+				{
+					"attributes": {
+						"id": "1509026346030219268",
+						"text": "@CarlMillar7 Completely agree.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509026346030219268"
+				},
+				{
+					"attributes": {
+						"id": "1509027279355224064",
+						"text": "@CarlMillar7 You are just a fool…",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509027279355224064"
+				},
+				{
+					"attributes": {
+						"id": "1509039118096998402",
+						"text": "@CarlMillar7 Grow up Carl",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509039118096998402"
+				},
+				{
+					"attributes": {
+						"id": "1509043036847812613",
+						"text": "@CarlMillar7 he’s been incredible for england every time he plays for them? Why would england fans boo him for bad performances at united? it’s pathetic behavior, they must have short memory coz i remember him getting team of the tournament a few months ago",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 16,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.05800221862514876
+					},
+					"name": "1509043036847812613",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509054036082888707",
+								"text": "@louisdeloriol @CarlMillar7 You should know it’s some of united fans that’s also England fans that will do that",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 6,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "attack",
+								"acceptability": 0.021898810218978104
+							},
+							"name": "1509054036082888707"
+						},
+						{
+							"attributes": {
+								"id": "1509062804359241729",
+								"text": "@louisdeloriol @CarlMillar7 Literally gifted Italy the goal in the final.",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 3,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "support",
+								"acceptability": 0.010949897684017884
+							},
+							"name": "1509062804359241729",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509085028499734530",
+										"text": "@CFC_Jay7 @louisdeloriol @CarlMillar7 Did you watch the same game as everyone or are you just blind.",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "attack",
+										"acceptability": 9.999993069165214e-7
+									},
+									"name": "1509085028499734530",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509086926208438273",
+												"text": "@isitoahe @louisdeloriol @CarlMillar7 Explain to me how am I blind. Rewatch the goal. Maguire is covering Bonucci, Maguire loses Bonucci and Bonucci scores. Don't know what game you watched buddy.",
+												"retweet_count": 0,
+												"reply_count": 2,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "neutral",
+												"argumentative_type": "attack",
+												"acceptability": 9.999986136932648e-7
+											},
+											"name": "1509086926208438273",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509092235329126408",
+														"text": "@CFC_Jay7 @isitoahe @louisdeloriol @CarlMillar7 You are blind no 2 ways about it \nAnother bandwagon clown",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack",
+														"acceptability": 9.999993069165214e-7
+													},
+													"name": "1509092235329126408",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509094313501810691",
+																"text": "@Justin89337614 @isitoahe @louisdeloriol @CarlMillar7 Strange reaction to factual information https://t.co/SGG6nMeEem",
+																"retweet_count": 0,
+																"reply_count": 0,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "attack",
+																"acceptability": 9.999999999177334e-7
+															},
+															"name": "1509094313501810691"
+														}
+													]
+												},
+												{
+													"attributes": {
+														"id": "1509092287674044417",
+														"text": "@CFC_Jay7 @isitoahe @louisdeloriol @CarlMillar7 So Maguire apparently gifting the goal to Italy is somehow a justifiable reason for what happened yesterday??😭😭 that’s just holding a grudge",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack",
+														"acceptability": 9.999993069165214e-7
+													},
+													"name": "1509092287674044417",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509094635909619714",
+																"text": "@ken2o_nk @isitoahe @louisdeloriol @CarlMillar7 Not the first nor the last player to get bood, don't know whats the big fuss about",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "neutral",
+																"argumentative_type": "attack",
+																"acceptability": 9.999993069165214e-7
+															},
+															"name": "1509094635909619714",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509097675223973892",
+																		"text": "@CFC_Jay7 @isitoahe @louisdeloriol @CarlMillar7 Doesn’t mean u bringing up the euro final ( and still be adamantly wrong) is a good enough reason to boo him🤨 no shit he’s not the first player to get bood u still sound stupid 😭",
+																		"retweet_count": 0,
+																		"reply_count": 1,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "negative",
+																		"argumentative_type": "attack",
+																		"acceptability": 9.999993069165214e-7
+																	},
+																	"name": "1509097675223973892",
+																	"children": [
+																		{
+																			"attributes": {
+																				"id": "1509099937165889541",
+																				"text": "@ken2o_nk @isitoahe @louisdeloriol @CarlMillar7 The guy I replied to said he was incredible for England every time he plays for them, my point is about that, I never mentioned anything about booing him. Adamantly wrong 😭😭😭. Players with proper mentality use that as a motivation, not cry about it like bunch of snowflakes 💀",
+																				"retweet_count": 0,
+																				"reply_count": 0,
+																				"like_count": 0,
+																				"quote_count": 0,
+																				"sentiment": "negative",
+																				"argumentative_type": "attack",
+																				"acceptability": 9.999999999177334e-7
+																			},
+																			"name": "1509099937165889541"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509048336317583360",
+						"text": "@CarlMillar7 The same fans where crying when could not play the uel final we really need to f off this people",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509048336317583360"
+				},
+				{
+					"attributes": {
+						"id": "1509050329626726401",
+						"text": "@CarlMillar7 One of the worst transfers in the EPL",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.010949905109489011
+					},
+					"name": "1509050329626726401"
+				},
+				{
+					"attributes": {
+						"id": "1509054331940708353",
+						"text": "@CarlMillar7 @UtdSzn130 Easy for you to say being a nobody",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 0.007300270072992721
+					},
+					"name": "1509054331940708353"
+				},
+				{
+					"attributes": {
+						"id": "1509055234873692163",
+						"text": "@CarlMillar7 The interview he conducted after making a huge error and costing his team 2 points to then blame forwards for only scoring 1 was end of Maguire for me. Absolute prick. Genuinely seems to believe he is World class. He wouldn’t get in any other team in world football anymore",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.007300270072992721
+					},
+					"name": "1509055234873692163"
+				},
+				{
+					"attributes": {
+						"id": "1509055348694466560",
+						"text": "@CarlMillar7 Can we have some examples of how uve formed your opinion?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509055348694466560"
+				},
+				{
+					"attributes": {
+						"id": "1509056773856149507",
+						"text": "@CarlMillar7 What did he do last night that made him deserve to be booed?",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509056773856149507",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509061098166702083",
+								"text": "@Lu_baatjes @CarlMillar7 clearly its not about what he did last night. dont be so dumb",
+								"retweet_count": 0,
+								"reply_count": 3,
+								"like_count": 13,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack"
+							},
+							"name": "1509061098166702083",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509069832712556544",
+										"text": "@theballerjc @Lu_baatjes @CarlMillar7 You're asking alot from a maguire stan",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "attack"
+									},
+									"name": "1509069832712556544",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509071509800763395",
+												"text": "@RealGreenSky @theballerjc @Lu_baatjes @CarlMillar7 There are Maguire stuns😧, ridiculous",
+												"retweet_count": 0,
+												"reply_count": 0,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "neutral"
+											},
+											"name": "1509071509800763395"
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509071097110700038",
+										"text": "@theballerjc @Lu_baatjes @CarlMillar7 You don’t always have to be rude you know",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "attack"
+									},
+									"name": "1509071097110700038"
+								},
+								{
+									"attributes": {
+										"id": "1509088140723634188",
+										"text": "@theballerjc @CarlMillar7 Thank you.. So in otherwords last night he got booed not for what happend in the game but for reasons outside of the game if I understand you correctly? Justifiable you would say?",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 2,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "support"
+									},
+									"name": "1509088140723634188",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509100635450454023",
+												"text": "@Lu_baatjes @CarlMillar7 im pretty sure the boos were pre kick off last night, and yeah, he was booed because his performances and attitude so far this season have warranted it",
+												"retweet_count": 0,
+												"reply_count": 2,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "support"
+											},
+											"name": "1509100635450454023",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509125849878085642",
+														"text": "@theballerjc @Lu_baatjes @CarlMillar7 But he’s not been playing for England has he? He’s been playing for fucking United, so don’t boo him at an England game it’s gross",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 1,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509125849878085642",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509135734170599425",
+																"text": "@connorbarlow_ @Lu_baatjes @CarlMillar7 its the exact same player mate, the shirt he’s wearing makes no difference. he should not have been selected over a tomori",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 1,
+																"quote_count": 1,
+																"sentiment": "negative",
+																"argumentative_type": "attack"
+															},
+															"name": "1509135734170599425",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509138844578365452",
+																		"text": "@theballerjc @Lu_baatjes @CarlMillar7 He shouldn’t I agree but he has and it’s not his fault, don’t boo your own player is disgraceful",
+																		"retweet_count": 0,
+																		"reply_count": 1,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "negative",
+																		"argumentative_type": "attack"
+																	},
+																	"name": "1509138844578365452",
+																	"children": [
+																		{
+																			"attributes": {
+																				"id": "1509138960471187457",
+																				"text": "@theballerjc @Lu_baatjes @CarlMillar7 I get bemoaning his selection but booing him is a just a joke",
+																				"retweet_count": 0,
+																				"reply_count": 0,
+																				"like_count": 0,
+																				"quote_count": 0,
+																				"sentiment": "negative",
+																				"argumentative_type": "attack"
+																			},
+																			"name": "1509138960471187457"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"attributes": {
+														"id": "1509136541377040391",
+														"text": "@theballerjc @CarlMillar7 Maguire has been decent for England, whenever he plays for them he does well, last time the guy was off form at club level then scored a goal at international level to help England win. I can't see the warrant in the boos",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "positive",
+														"argumentative_type": "attack"
+													},
+													"name": "1509136541377040391",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509141107489525768",
+																"text": "@Lu_baatjes @theballerjc @CarlMillar7 It’s funny how all these man united players play well on international duty away from the United fans. Almost like maybe the man united fans are actually the probably and their lack of support toward their players 🤔🤔🤔",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "neutral"
+															},
+															"name": "1509141107489525768",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509141169103675400",
+																		"text": "@Lu_baatjes @theballerjc @CarlMillar7 problem*",
+																		"retweet_count": 0,
+																		"reply_count": 0,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "neutral",
+																		"argumentative_type": "neutral"
+																	},
+																	"name": "1509141169103675400"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509057269476081664",
+						"text": "@CarlMillar7 Not sure his performances in an England shirt deserve booing. The toxicity amongst United fans is unfortunately spilling over. We should try to support our players so they perform better, not tear them down.",
+						"retweet_count": 0,
+						"reply_count": 3,
+						"like_count": 62,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.2262783722627737
+					},
+					"name": "1509057269476081664",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509070645992337410",
+								"text": "@KingCantona77 @CarlMillar7 How many years have you supported Phil Jones?",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 12,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509070645992337410",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509075395336978433",
+										"text": "@deno_n @CarlMillar7 When he plays, I want him to do well, although in fairness that hardly happens 😂",
+										"retweet_count": 0,
+										"reply_count": 2,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "positive",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509075395336978433",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509075701839941639",
+												"text": "@KingCantona77 @CarlMillar7 Exactly, Mufc should get rid of him ASAP",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 2,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "support"
+											},
+											"name": "1509075701839941639",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509075957604360192",
+														"text": "@deno_n @CarlMillar7 I don’t disagree. We should’ve gotten rid years ago to be fair. However I wouldn’t boo him when he is playing for us. That’s all I’m saying.",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 4,
+														"quote_count": 0,
+														"sentiment": "neutral",
+														"argumentative_type": "support"
+													},
+													"name": "1509075957604360192",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509076325335814147",
+																"text": "@KingCantona77 @CarlMillar7 Keep bottling up emotions, one of these days you'll do a Will Smith on his face",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 4,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "attack"
+															},
+															"name": "1509076325335814147",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509077023607644162",
+																		"text": "@deno_n @CarlMillar7 Don’t worry, I’m fresher than that. If anything the support Jones got on his return against Wolves made him play better.",
+																		"retweet_count": 0,
+																		"reply_count": 1,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "positive",
+																		"argumentative_type": "attack"
+																	},
+																	"name": "1509077023607644162",
+																	"children": [
+																		{
+																			"attributes": {
+																				"id": "1509077623376424963",
+																				"text": "@KingCantona77 @CarlMillar7 And you wonder why City overtook us. Mufc sold Rooney and kept Jones that's why.",
+																				"retweet_count": 0,
+																				"reply_count": 1,
+																				"like_count": 4,
+																				"quote_count": 0,
+																				"sentiment": "negative",
+																				"argumentative_type": "attack"
+																			},
+																			"name": "1509077623376424963",
+																			"children": [
+																				{
+																					"attributes": {
+																						"id": "1509078019805265920",
+																						"text": "@deno_n @CarlMillar7 City overtook us before Rooney left cause they’ve got a proper structure in place that cares about trophies over sponsors.",
+																						"retweet_count": 0,
+																						"reply_count": 1,
+																						"like_count": 1,
+																						"quote_count": 0,
+																						"sentiment": "neutral",
+																						"argumentative_type": "attack"
+																					},
+																					"name": "1509078019805265920",
+																					"children": [
+																						{
+																							"attributes": {
+																								"id": "1509078506982019072",
+																								"text": "@KingCantona77 @CarlMillar7 And they they kick out dead wood players. Even Aguero ffs",
+																								"retweet_count": 0,
+																								"reply_count": 1,
+																								"like_count": 1,
+																								"quote_count": 0,
+																								"sentiment": "negative",
+																								"argumentative_type": "support"
+																							},
+																							"name": "1509078506982019072",
+																							"children": [
+																								{
+																									"attributes": {
+																										"id": "1509078760913616896",
+																										"text": "@deno_n @CarlMillar7 Yes they do. As should we.",
+																										"retweet_count": 0,
+																										"reply_count": 0,
+																										"like_count": 1,
+																										"quote_count": 0,
+																										"sentiment": "neutral",
+																										"argumentative_type": "support"
+																									},
+																									"name": "1509078760913616896"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"attributes": {
+												"id": "1509141490274025473",
+												"text": "@KingCantona77 @deno_n @CarlMillar7 Same applies to bailly",
+												"retweet_count": 0,
+												"reply_count": 0,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "neutral",
+												"argumentative_type": "support"
+											},
+											"name": "1509141490274025473"
+										}
+									]
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1509118315545100289",
+								"text": "@KingCantona77 @CarlMillar7 I think maybe is because tomori had a good season so far and deserved a call up, but I guess Southgate will stick to his favourites.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "positive",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509118315545100289"
+						},
+						{
+							"attributes": {
+								"id": "1509145045542264838",
+								"text": "@KingCantona77 @CarlMillar7 This fans are UTD supporters and a few rival club fans who think Maguire shouldn’t have started for England ahead of other in-form defenders despite putting on shitty performances week in week out at United.Most players won’t even get called up if they played like Maguire at UTD.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509145045542264838"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509060426885214211",
+						"text": "@CarlMillar7 I agree with you.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509060426885214211"
+				},
+				{
+					"attributes": {
+						"id": "1509061387280007171",
+						"text": "@CarlMillar7 EXACTLY! \nTHANK YOU.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509061387280007171"
+				},
+				{
+					"attributes": {
+						"id": "1509062086328045572",
+						"text": "@CarlMillar7 Of all time 😂😂. Clearly 12-years-old.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 4,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 0.014599540145985301
+					},
+					"name": "1509062086328045572"
+				},
+				{
+					"attributes": {
+						"id": "1509062256268611586",
+						"text": "@CarlMillar7 he deserves it ...hes caused us enough pain",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509062256268611586"
+				},
+				{
+					"attributes": {
+						"id": "1509062954590904321",
+						"text": "@CarlMillar7 Another sad lil dck rider this app actually reeks with virgins now",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 21,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.07664333576642335
+					},
+					"name": "1509062954590904321"
+				},
+				{
+					"attributes": {
+						"id": "1509063757045149696",
+						"text": "@CarlMillar7 Booed by England fans for poor performances in a team most of them hate whilst playing quite well for the team they support 🤷🏻‍♂️",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 4,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509063757045149696"
+				},
+				{
+					"attributes": {
+						"id": "1509063871083941888",
+						"text": "@CarlMillar7 Shut up",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509063871083941888"
+				},
+				{
+					"attributes": {
+						"id": "1509064323179728898",
+						"text": "@CarlMillar7 Nowadays players are getting sympathy for not being good enough most expecially England players what a disaster",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509064323179728898"
+				},
+				{
+					"attributes": {
+						"id": "1509065451086696448",
+						"text": "@CarlMillar7 Wow just wow\n\nThe man was part of the Euros team of the tournament and instrumental in getting England to the final, but yeah he deserves boos from England fans 🤦‍♂️",
+						"retweet_count": 0,
+						"reply_count": 3,
+						"like_count": 5,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.01824919957441351
+					},
+					"name": "1509065451086696448",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509141794092683267",
+								"text": "@ktwood2524 @CarlMillar7 But he didn’t win. So he instantly sucks. That’s how man united fans think haha",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1509141794092683267"
+						},
+						{
+							"attributes": {
+								"id": "1509143766770368515",
+								"text": "@ktwood2524 @CarlMillar7 Don’t forget most England fans are also United supporters who hate his performances and fellow rival clubs who think their player(s) should have started ahead of him because of his shitty performance at United this season. e.g (tomori).",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1509143766770368515"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509066508219027456",
+						"text": "@CarlMillar7 Sure you’ re not Karl Pilkington?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509066508219027456"
+				},
+				{
+					"attributes": {
+						"id": "1509066788063137796",
+						"text": "@CarlMillar7 Has he even got an ego? He seems pretty humble to me",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509066788063137796"
+				},
+				{
+					"attributes": {
+						"id": "1509067474951622658",
+						"text": "@CarlMillar7 Thanks for including your age in your Twitter handle, Carl - this explains a lot.\n\nTell me, what do you gain on a personal level from metaphorically kicking a person when they are down?\n\nPerhaps something to discuss with your class teacher tomorrow?",
+						"retweet_count": 1,
+						"reply_count": 6,
+						"like_count": 81,
+						"quote_count": 1,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509067474951622658",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509097358155522052",
+								"text": "@_MUTransferNews @CarlMillar7 Well said.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "positive",
+								"argumentative_type": "support"
+							},
+							"name": "1509097358155522052"
+						},
+						{
+							"attributes": {
+								"id": "1509104630847975428",
+								"text": "@_MUTransferNews @CarlMillar7 Ah, so we can't boo or criticise players for playing badly now?",
+								"retweet_count": 0,
+								"reply_count": 4,
+								"like_count": 17,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509104630847975428",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509112935251156995",
+										"text": "@NiceYungFella @_MUTransferNews @CarlMillar7 When did maguire play badly for England?",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 6,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509112935251156995",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509122307863810054",
+												"text": "@JUANFIELD8 @NiceYungFella @_MUTransferNews @CarlMillar7 When he gave a away a penalty and got sent off during England's loss to Denmark",
+												"retweet_count": 0,
+												"reply_count": 2,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "neutral"
+											},
+											"name": "1509122307863810054",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509123994888273920",
+														"text": "@stwx7 @NiceYungFella @_MUTransferNews @CarlMillar7 He was sent off before the penalty? So he didn’t give away a penalty did he you’ve just made that up",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 12,
+														"quote_count": 0,
+														"sentiment": "neutral",
+														"argumentative_type": "attack"
+													},
+													"name": "1509123994888273920",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509139753920512007",
+																"text": "@JUANFIELD8 @stwx7 @NiceYungFella @_MUTransferNews @CarlMillar7 Clearly you can see the type of people you're dealing with here 💀😭",
+																"retweet_count": 0,
+																"reply_count": 0,
+																"like_count": 1,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "attack"
+															},
+															"name": "1509139753920512007"
+														}
+													]
+												},
+												{
+													"attributes": {
+														"id": "1509144032517267464",
+														"text": "@stwx7 @JUANFIELD8 @NiceYungFella @CarlMillar7 There’s something wrong with you, really.",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509144032517267464"
+												}
+											]
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1509143864237563904",
+										"text": "@NiceYungFella @CarlMillar7 I’m not saying you can’t. What I’m saying is that I find anyone who does quite odd. Particularly in the context of the National team.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509143864237563904"
+								},
+								{
+									"attributes": {
+										"id": "1509144850645594120",
+										"text": "@NiceYungFella @_MUTransferNews @CarlMillar7 He got booed before the game. \nI don't even like McGuire but I wouldn't boo him for England. Just a shame alot of people who follow football are completely simple.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "attack"
+									},
+									"name": "1509144850645594120"
+								},
+								{
+									"attributes": {
+										"id": "1509149369001512969",
+										"text": "@NiceYungFella @_MUTransferNews @CarlMillar7 When’s he performed bad in an England shirt ???",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "neutral"
+									},
+									"name": "1509149369001512969"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1509120256148656145",
+								"text": "@_MUTransferNews @CarlMillar7 maguire ain't down\nhe is biting the dust",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509120256148656145"
+						},
+						{
+							"attributes": {
+								"id": "1509125306698899460",
+								"text": "@_MUTransferNews @CarlMillar7 Because those players that are down are being paid £200,000 a week for horrible performances! Leave the lads age out of this!",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509125306698899460"
+						},
+						{
+							"attributes": {
+								"id": "1509144769783603207",
+								"text": "@_MUTransferNews @CarlMillar7 any united fan refusing to boo maguire isn’t a real fan. I will boo him every single week at OT along with every other real fan until he fucks off out of this club",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1509144769783603207",
+							"children": [
+								{
+									"attributes": {
+										"id": "1509149544721764352",
+										"text": "@seb13254398 @CarlMillar7 Unhinged.",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "support"
+									},
+									"name": "1509149544721764352",
+									"children": [
+										{
+											"attributes": {
+												"id": "1509150325827112965",
+												"text": "@_MUTransferNews @CarlMillar7 keep accepting failure, fans like you are the reason where we are where we are",
+												"retweet_count": 0,
+												"reply_count": 1,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "attack"
+											},
+											"name": "1509150325827112965",
+											"children": [
+												{
+													"attributes": {
+														"id": "1509153215245438980",
+														"text": "@seb13254398 @CarlMillar7 People such as yourself aren’t fans.",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "attack"
+													},
+													"name": "1509153215245438980",
+													"children": [
+														{
+															"attributes": {
+																"id": "1509153720721936392",
+																"text": "@_MUTransferNews @CarlMillar7 i go to OT every week, how often do you go? this is a man that was arrested for battery and assault, yet was forgiven with no punishment. A man who drops 0/10 performances every week and a man not fit to wear the captains armband. If you support him, you are an idiot",
+																"retweet_count": 0,
+																"reply_count": 1,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "negative",
+																"argumentative_type": "attack"
+															},
+															"name": "1509153720721936392",
+															"children": [
+																{
+																	"attributes": {
+																		"id": "1509154888218984452",
+																		"text": "@seb13254398 @CarlMillar7 Everything you type is ambiguous and subjective. \n\nI support him.",
+																		"retweet_count": 0,
+																		"reply_count": 0,
+																		"like_count": 0,
+																		"quote_count": 0,
+																		"sentiment": "neutral",
+																		"argumentative_type": "attack"
+																	},
+																	"name": "1509154888218984452"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509067885603438594",
+						"text": "@CarlMillar7 Bunch of casuals",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509067885603438594"
+				},
+				{
+					"attributes": {
+						"id": "1509068051098095622",
+						"text": "@CarlMillar7 already knew you were one of Mike's disciples",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509068051098095622"
+				},
+				{
+					"attributes": {
+						"id": "1509070428899270658",
+						"text": "@CarlMillar7 Did he do something to your mum?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509070428899270658"
+				},
+				{
+					"attributes": {
+						"id": "1509074875301826560",
+						"text": "@CarlMillar7 That’s bollocks and you’re a bellend.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509074875301826560"
+				},
+				{
+					"attributes": {
+						"id": "1509075403171942400",
+						"text": "@CarlMillar7 Stfu",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509075403171942400"
+				},
+				{
+					"attributes": {
+						"id": "1509079517012410377",
+						"text": "@CarlMillar7 What an d ick head you are pal",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509079517012410377"
+				},
+				{
+					"attributes": {
+						"id": "1509080392904888321",
+						"text": "@CarlMillar7 Brain dead opinion, did ppl forget how weak we looked defensively without Maguire at the end of last season",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.00365063503649643
+					},
+					"name": "1509080392904888321"
+				},
+				{
+					"attributes": {
+						"id": "1509082162380918784",
+						"text": "@CarlMillar7 Carl, you are lost mate!! Don’t understand how you think this way even if Maguire has underperformed this season!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509082162380918784"
+				},
+				{
+					"attributes": {
+						"id": "1509088457817219074",
+						"text": "@CarlMillar7 stfu",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509088457817219074"
+				},
+				{
+					"attributes": {
+						"id": "1509089415649546244",
+						"text": "@CarlMillar7 Your nothing but a clown",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509089415649546244"
+				},
+				{
+					"attributes": {
+						"id": "1509091514323931136",
+						"text": "@CarlMillar7 What a sad comment. No one deserves booing. Do you even support football?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509091514323931136"
+				},
+				{
+					"attributes": {
+						"id": "1509096974510923783",
+						"text": "@CarlMillar7 Spoken like the same England fan who booed the players who missed penalties in the euros final. Get a grip man, you should be utterly ashamed of yourself. Disgusting.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509096974510923783"
+				},
+				{
+					"attributes": {
+						"id": "1509097614968508418",
+						"text": "@CarlMillar7 Correct his such a waste money then we could have kept smalling",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509097614968508418"
+				},
+				{
+					"attributes": {
+						"id": "1509097955600519175",
+						"text": "@CarlMillar7 Fuck you",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509097955600519175"
+				},
+				{
+					"attributes": {
+						"id": "1509097997417787396",
+						"text": "@CarlMillar7 Yer cause you know him well",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509097997417787396"
+				},
+				{
+					"attributes": {
+						"id": "1509098953404469250",
+						"text": "@CarlMillar7 I don’t think hes that bad he just gets more stick cos hes @ united",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509098953404469250"
+				},
+				{
+					"attributes": {
+						"id": "1509099301250678789",
+						"text": "@CarlMillar7 Ahhhh spoken like a true ……..🔔🔚",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 0.007300270072992721
+					},
+					"name": "1509099301250678789"
+				},
+				{
+					"attributes": {
+						"id": "1509100900048121858",
+						"text": "@CarlMillar7 Lol. All that article mentions is Manchester United. Let’s not forget this is the same Harry Maguire that helped England to a World Cup Semi final and a European Championship final.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509100900048121858"
+				},
+				{
+					"attributes": {
+						"id": "1509101437191655425",
+						"text": "@CarlMillar7 Stick it up your arse",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509101437191655425"
+				},
+				{
+					"attributes": {
+						"id": "1509102467350413315",
+						"text": "@CarlMillar7 Aha you little scruff",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509102467350413315"
+				},
+				{
+					"attributes": {
+						"id": "1509106636794781698",
+						"text": "@CarlMillar7 I mean no person deserves hate even if he plays bad or not.",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.974727764872071e-7
+					},
+					"name": "1509106636794781698",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509120765307887618",
+								"text": "@flairyriyad @CarlMillar7 Easy to say than actually doing it, everyone is reactionary and in the moment when it comes to football, nothing anyone can do about it",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack",
+								"acceptability": 0.00365063503649643
+							},
+							"name": "1509120765307887618"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509107432093622273",
+						"text": "@CarlMillar7 Any professional footballer who gets in bother abroad with police, then has the cheek to say \nQuote \nDo you not know who I am ? , to them , sums them up \nWho but me type , shows their smugness as a person .. better than your average Joe Bloggs type \nUtd’s worst ever captain",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509107432093622273"
+				},
+				{
+					"attributes": {
+						"id": "1509108418564562944",
+						"text": "@CarlMillar7 You and tweets like this is part of the problem at our club.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509108418564562944"
+				},
+				{
+					"attributes": {
+						"id": "1509108486025613312",
+						"text": "@CarlMillar7 Mfs be dumb like you that they booing him when he's playing for England when he aint poor for England, he's poor for United recently. Ego of  Sergio Ramos? 😂 You clearly dont know Sergio Ramos then.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509108486025613312"
+				},
+				{
+					"attributes": {
+						"id": "1509108583534837764",
+						"text": "@CarlMillar7 Agree 100% Maguire is just about average on any level.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509108583534837764"
+				},
+				{
+					"attributes": {
+						"id": "1509110148513828866",
+						"text": "@CarlMillar7 Utd fans are the most toxic fans on God's green Earth. And they wonder why every player they buy becomes astronomically worse after joining Utd. They destroy their confidence on the daily, trying to pin the blame for a teamwide issue on 1 player like the simpletons they are",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509110148513828866"
+				},
+				{
+					"attributes": {
+						"id": "1509111256942268416",
+						"text": "@CarlMillar7 Actual teenage boy",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509111256942268416"
+				},
+				{
+					"attributes": {
+						"id": "1509111820908474375",
+						"text": "@CarlMillar7 Your a proper nob rash",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509111820908474375"
+				},
+				{
+					"attributes": {
+						"id": "1509112111116570630",
+						"text": "@CarlMillar7 Trust me",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509112111116570630"
+				},
+				{
+					"attributes": {
+						"id": "1509112727955902470",
+						"text": "@CarlMillar7 W tweet",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509112727955902470"
+				},
+				{
+					"attributes": {
+						"id": "1509113513763131395",
+						"text": "@CarlMillar7 It’s the cupping of the ears and interviews he gives as to why he’s become the clown people don’t like",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509113513763131395"
+				},
+				{
+					"attributes": {
+						"id": "1509116437549486080",
+						"text": "@CarlMillar7 \"The ego of Sergio Ramos\"?\nI don't really rate Maguire for United but saying he has a big ego is way off",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509116437549486080"
+				},
+				{
+					"attributes": {
+						"id": "1509116802802270209",
+						"text": "@CarlMillar7 Nobody cares about what fans think. You paid for the ticket. It literally ends there. Go fuck yourself",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509116802802270209"
+				},
+				{
+					"attributes": {
+						"id": "1509118037672214536",
+						"text": "@CarlMillar7 His got itchy hands and don't play professional. Maguire is an opportunist to play football. Manchester untied with all glory&amp;their set aims and goals don't deserve to have a player of such attributes as Harry Maguire wearing the club jersey talk less of giving him a Captain band",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509118037672214536"
+				},
+				{
+					"attributes": {
+						"id": "1509120412428509188",
+						"text": "@CarlMillar7 You deserved your father abandoning you in childhood 👍🏽",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509120412428509188"
+				},
+				{
+					"attributes": {
+						"id": "1509121184876711937",
+						"text": "@CarlMillar7 The ole icon as well. Absolute boomer",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509121184876711937"
+				},
+				{
+					"attributes": {
+						"id": "1509121759978700803",
+						"text": "@CarlMillar7 The sight of Maguire nauseat me honestly",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509121759978700803"
+				},
+				{
+					"attributes": {
+						"id": "1509122018045800454",
+						"text": "@CarlMillar7 Seek help",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509122018045800454"
+				},
+				{
+					"attributes": {
+						"id": "1509123112398467072",
+						"text": "@CarlMillar7 Tf is this i am a major Maguire critic but your comparing a man doing something embarrassing and wrong with cheating on his wife to a footballer being shit on the pitch",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509123112398467072"
+				},
+				{
+					"attributes": {
+						"id": "1509123715610681346",
+						"text": "@CarlMillar7 Especially when he scored a goal and put his hands to his ears, like people were slagging him off for his goal contributions. Mate you’re a defender, learn how to do that first",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509123715610681346"
+				},
+				{
+					"attributes": {
+						"id": "1509124827575390213",
+						"text": "@CarlMillar7 Its not too late to change Carl, you could  erase yourself.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509124827575390213"
+				},
+				{
+					"attributes": {
+						"id": "1509125645544173575",
+						"text": "@CarlMillar7 This again is such bullshit. When has Maguire ever been arrogant?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509125645544173575"
+				},
+				{
+					"attributes": {
+						"id": "1509128222587654146",
+						"text": "@CarlMillar7 Lol Goldnonce zombie found",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509128222587654146"
+				},
+				{
+					"attributes": {
+						"id": "1509128298982432768",
+						"text": "@CarlMillar7 I don’t know about the ego part but there is something unloveable about him. Still doesn’t deserve the boos though",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509128298982432768"
+				},
+				{
+					"attributes": {
+						"id": "1509131164166012928",
+						"text": "@CarlMillar7 I think that is a bit too much he is a premier league midtable centre back at best and who wouldn't have a ego after being signed by United for £80m",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509131164166012928"
+				},
+				{
+					"attributes": {
+						"id": "1509132356266901504",
+						"text": "@CarlMillar7 What ego are you talking about you twat",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509132356266901504"
+				},
+				{
+					"attributes": {
+						"id": "1509133777435435010",
+						"text": "@CarlMillar7 Wasn't for British Passport, Maguire would have ended up being Police officer",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509133777435435010",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509142312336728076",
+								"text": "@Utd_marcelo @CarlMillar7 He’s englands best CB. Just stop talking",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "attack"
+							},
+							"name": "1509142312336728076"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509133949028732938",
+						"text": "@CarlMillar7 Preach. Guys stealing a living at this point!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509133949028732938"
+				},
+				{
+					"attributes": {
+						"id": "1509134107820933121",
+						"text": "@CarlMillar7 2 Bob player. Bang average. Will either see his career out at Utd or rejoin Leicester in next 4 years",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509134107820933121"
+				},
+				{
+					"attributes": {
+						"id": "1509137743665938432",
+						"text": "@CarlMillar7 This is the problem with modern day fans, the self entitlement is nuts.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509137743665938432"
+				},
+				{
+					"attributes": {
+						"id": "1509139177379618818",
+						"text": "@CarlMillar7 Always performs for England so his Utd form isn’t really relevant if he’s not playing for them",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509139177379618818"
+				},
+				{
+					"attributes": {
+						"id": "1509139729316515842",
+						"text": "@CarlMillar7 Not bitter then for someone who has make more of his life than you have of yours",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509139729316515842"
+				},
+				{
+					"attributes": {
+						"id": "1509140692303552519",
+						"text": "@CarlMillar7 Sunday league player 😭😭😭😭😭",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509140692303552519"
+				},
+				{
+					"attributes": {
+						"id": "1509141456384110601",
+						"text": "@CarlMillar7 Where did you conclude he has a massive ego?  i think he’s awful but ego? I’m genuinely wondering…",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509141456384110601"
+				},
+				{
+					"attributes": {
+						"id": "1509141784538058756",
+						"text": "@CarlMillar7 An idiot like urself doesnt deserve the freedom the internet offers",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509141784538058756"
+				},
+				{
+					"attributes": {
+						"id": "1509143637124337667",
+						"text": "@CarlMillar7 But he is outstanding in England shirt, only Manchester United fans have the audacity of booing him as he flops in United shirt",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509143637124337667"
+				},
+				{
+					"attributes": {
+						"id": "1509144327389392907",
+						"text": "@CarlMillar7 Jesus Carl, this caught momentum!",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509144327389392907",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509145734712602624",
+								"text": "@g22vin I don’t wanna be Twitter famous for trolling but I just can’t have anything about Maguire. Look at the abuse Beckham, Rooney and others took from the England fans. They didn’t get people to publicly cry for them. They went out on the pitch and fucking won everything",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack"
+							},
+							"name": "1509145734712602624"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509145207421480961",
+						"text": "@CarlMillar7 Lads yes he's shit and it is understandable that you'd boo him. That being said it's completely unacceptable. Think about it, if you all start booing him, he won't want to improve because he's being booed. He's human too you know.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509145207421480961"
+				},
+				{
+					"attributes": {
+						"id": "1509146769027997704",
+						"text": "@CarlMillar7 Doesn’t deserve that abuse he got. Yea his club form is poor atm. But don’t hate on him for that while he wears an England shirt",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509146769027997704"
+				},
+				{
+					"attributes": {
+						"id": "1509147324458713088",
+						"text": "@CarlMillar7 He gets booed because it’s a slap in the face to defenders across all the leagues.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1509147324458713088"
+				},
+				{
+					"attributes": {
+						"id": "1509148949269127170",
+						"text": "@CarlMillar7 What a mong",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509148949269127170"
+				},
+				{
+					"attributes": {
+						"id": "1509149853674352647",
+						"text": "@CarlMillar7 Nope! Harry Maguire doesn’t deserve to be booed at every match, yes, Harry isn’t playing well for United but when Harry Maguire is playing for England, no England fan should think it’s ok to boo their own player. \n\nShame on any England fan who boos their own England players.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509149853674352647"
+				},
+				{
+					"attributes": {
+						"id": "1509151156156649479",
+						"text": "@CarlMillar7 Only harry kane beats him in unlikeableness",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509151156156649479"
+				},
+				{
+					"attributes": {
+						"id": "1509153688551510017",
+						"text": "@CarlMillar7 He plays well with Kane and all England player, he puts in goals for his country but something is wrong at Man United. Respect mate.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509153688551510017"
+				},
+				{
+					"attributes": {
+						"id": "1509154245928312836",
+						"text": "Throwback to when Sergio Ramos said this😹😹👇(Dont forget to rt🤣) https://t.co/NzLZftLW9x",
+						"retweet_count": 2,
+						"reply_count": 3,
+						"like_count": 8,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.036411601333735666
+					},
+					"name": "1509154245928312836",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509154560098521092",
+								"text": "@Wonatiiii Fuck off dude\nI was with my homies",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack",
+								"acceptability": 0.00365063503649643
+							},
+							"name": "1509154560098521092"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509153976113115136",
+						"text": "Happy birthday, Sergio Ramos.\n\nFor all you've achieved in your career, this is still our favourite moment 😂\nhttps://t.co/zB6k0NAjDX",
+						"retweet_count": 6,
+						"reply_count": 1,
+						"like_count": 12,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.06569447057875943
+					},
+					"name": "1509153976113115136",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509155088136347649",
+								"text": "@FootballJOE What an achievement!",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "positive",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1509155088136347649"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509153264054509570",
+						"text": "Wishing a very HAPPY BIRTHDAY to our ex-player and a club superstar SERGIO RAMOS 👑 #sr4ever https://t.co/8W0dwSSnus",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 1,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.00365063503649643
+					},
+					"name": "1509153264054509570"
+				},
+				{
+					"attributes": {
+						"id": "1509152965067689988",
+						"text": "Happy 36th birthday to Sergio Ramos:\n\n🏆🏆🏆🏆🏆 LaLiga\n🏆🏆🏆🏆 UCL\n🏆🏆🏆🏆 Club World Cup\n🏆🏆🏆 UEFA Super Cup\n🏆🏆 Copa del Rey\n🏆🏆 European Championships\n🏆 World Cup https://t.co/Fb4F6Oup9m",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 9,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.0328477153284672
+					},
+					"name": "1509152965067689988"
+				},
+				{
+					"attributes": {
+						"id": "1509152537584496642",
+						"text": "Birthday Greetings to one of the very greats the game has ever seen, Sergio Ramos.🎂❤️ https://t.co/Nd3lZS5t87",
+						"retweet_count": 9,
+						"reply_count": 1,
+						"like_count": 116,
+						"quote_count": 1,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.45620537956204377
+					},
+					"name": "1509152537584496642"
+				},
+				{
+					"attributes": {
+						"id": "1509151550094118914",
+						"text": "El Captaino Sergio Ramos  turns 36. \nThe greatest defender of the generation that has won everything there is to \nwin for club and country. \nFeliz cumpleaños a mi mejor Capitán!\n\n@SergioRamos 🤍 https://t.co/JfivXdUZfh",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.010949905109489011
+					},
+					"name": "1509151550094118914"
+				},
+				{
+					"attributes": {
+						"id": "1509151500551045122",
+						"text": "#HappyBirthdaySergioRamos\n\nHAPPY BIRTHDAY TO ONE OF FOOTBALL GREATEST DEFENDER ! \n\nSERGIO RAMOS GARCIA ! 🐐❤️🤍⚪⚪ 😭",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.00365063503649643
+					},
+					"name": "1509151500551045122"
+				},
+				{
+					"attributes": {
+						"id": "1509150135045222401",
+						"text": "The greatest defender of all time.\n\nCaptain Sergio Ramos Garcia, turns 36. https://t.co/F9vWfEuPrb",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 16,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.058395160583941674
+					},
+					"name": "1509150135045222401"
+				},
+				{
+					"attributes": {
+						"id": "1509149707280470023",
+						"text": "Fuck me, Maguire was only booed by a few home fans. The overreaction is insane &amp; the players are so babied now.\n\nSergio Ramos handled it best: https://t.co/YVKBjWlJhP",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509149707280470023"
+				},
+				{
+					"attributes": {
+						"id": "1509148147532062722",
+						"text": "Give me one time where Sergio Ramos, Cristiano Ronaldo, Leo Messi, Paul Pogba, Gareth Bale and Neymar were offered support when they've got booed.",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 12,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 0.04339245688090365
+					},
+					"name": "1509148147532062722",
+					"children": [
+						{
+							"attributes": {
+								"id": "1509148475841302537",
+								"text": "@DiogoMindset There is none. You know what they all have on common? They’ve all won major trophies and are some of the most successful footballer in the history of the sport. Almost as if this whole circus of victimising is BS.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 3,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack",
+								"acceptability": 0.010949905109489011
+							},
+							"name": "1509148475841302537"
+						},
+						{
+							"attributes": {
+								"id": "1509152287444283394",
+								"text": "@DiogoMindset Forget that. Our very own fans booed di Maria in 2019 💀",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack",
+								"acceptability": 0.00365063503649643
+							},
+							"name": "1509152287444283394"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1509143659727495181",
+						"text": "Happy birthday Sergio Ramos\nEl capitan @SergioRamos https://t.co/VSSsrpzqOP",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.010949905109489011
+					},
+					"name": "1509143659727495181"
+				},
+				{
+					"attributes": {
+						"id": "1509142414514028549",
+						"text": "Happy 36th Birthday Sergio Ramos 🇪🇸\n\n🏆 5X Spanish Champion\n🏆 4X Spanish Super Cup\n🏆 4X UEFA Champions League\n🏆 4X Club World Cup\n🏆 3X UEFA Super Cup\n🏆 2X European Champion\n🏆 2X Spanish Cup\n🏆 1X World Cup\n🏆 1X European U19 https://t.co/NoJ0jD0mJI",
+						"retweet_count": 1,
+						"reply_count": 1,
+						"like_count": 12,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.04744625547445258
+					},
+					"name": "1509142414514028549"
+				},
+				{
+					"attributes": {
+						"id": "1509141551594749958",
+						"text": "Sergio Ramos turns 36 today! 🎉\n\n- 129 Champions League apps\n- 15 Champions League goals\n- 4x Champions League winner\n- 9x UEFA Team of the Year\n\nA true #UCL legend 🙌🇪🇸\n\nPlease retweet and follow us\nhttps://t.co/qOJQR5Jt4m",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1509141551594749958"
+				}
+			]
+		},
+		"metrics": {
+			"root_tweet_sentiment": "negative",
+			"root_tweet_argument_strength": 0.4679195825594268,
+			"strongest_argument_id": "1509005396681232390",
+			"sentiment_towards_root": "negative",
+			"general_sentiment": "negative"
+		}
+	}
+}

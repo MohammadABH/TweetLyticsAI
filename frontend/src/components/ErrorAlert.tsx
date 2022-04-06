@@ -22,6 +22,7 @@ const ErrorAlert = ({ errorMessage, errorTitle, errorDescription }: IProps) => {
       justifyContent="center"
       textAlign="center"
       height="200px"
+			data-testid="error-alert"
     >
       <AlertIcon boxSize="40px" mr={0} />
       <AlertTitle mt={4} mb={1} fontSize="lg">

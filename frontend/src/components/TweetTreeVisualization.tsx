@@ -33,7 +33,7 @@ const renderNodeWithCustomEvents = ({
       fill={handleNodeColor(nodeDatum.attributes.sentiment)}
     />
     <text fill="black" strokeWidth="1" x="20" onClick={toggleNode}>
-      {nodeDatum.children && <>(Expand 👋) </>}
+      {nodeDatum.children && <>(Expand / Collapse 👋) </>}
     </text>
   </g>
 );
@@ -55,7 +55,6 @@ const TweetTreeVisualization = ({ tweetTree }: IProps) => {
 
   const handleNodeClick = (tweetNode: TweetNode) => {
     setCurrentNode(tweetNode);
-    console.log(currentNode?.attributes.sentiment);
     onOpen();
   };
 
@@ -75,6 +74,7 @@ const TweetTreeVisualization = ({ tweetTree }: IProps) => {
           renderNodeWithCustomEvents({ ...rd3tProps, handleNodeClick })
         }
         pathClassFunc={getDynamicPathClass}
+        data-testid="tree"
       />
       <TweetNodeInformation
         currentNode={currentNode}

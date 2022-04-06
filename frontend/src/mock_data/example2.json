@@ -1,0 +1,1561 @@
+{
+	"response": {
+		"tweet_tree": {
+			"attributes": {
+				"id": "1510667465352966145",
+				"text": "Hi everyone, I know that COVID hasn’t been in the mainstream news much over the last few weeks, but we’re still very much in a pandemic. Mask up in indoor public areas. Try to stock up on your rapid tests. If you’re eligible to be vaccinated and boosted, please do.",
+				"retweet_count": 1417,
+				"reply_count": 70,
+				"like_count": 6708,
+				"quote_count": 43,
+				"sentiment": "neutral",
+				"argumentative_type": "none",
+				"acceptability": 0.6594539021904509
+			},
+			"name": "1510667465352966145",
+			"children": [
+				{
+					"attributes": {
+						"id": "1510667672215818248",
+						"text": "@uche_blackstock Thank you Dr. Uche. I hope people listen.",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 37,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.05314785314685322
+					},
+					"name": "1510667672215818248"
+				},
+				{
+					"attributes": {
+						"id": "1510667746463436803",
+						"text": "@uche_blackstock @Tinu Just waiting on boosters to hit under 50 high risk. 🤞",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 22,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510667746463436803",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510692789260017670",
+								"text": "@this1wierdgirl @uche_blackstock @Tinu If you're immunocompromised, then you're already eligible regardless of age! It just has to be at least 4 months past your previous vaccination.",
+								"retweet_count": 1,
+								"reply_count": 2,
+								"like_count": 17,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510692789260017670",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510778479754850308",
+										"text": "@Echo4Resistance I'm not, just regular ol' high risk.",
+										"retweet_count": 0,
+										"reply_count": 2,
+										"like_count": 2,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "attack"
+									},
+									"name": "1510778479754850308",
+									"children": [
+										{
+											"attributes": {
+												"id": "1510798159789924356",
+												"text": "@this1wierdgirl Darn, seems like you should be lumped in with us still 😕 sorry.",
+												"retweet_count": 0,
+												"reply_count": 0,
+												"like_count": 1,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "attack"
+											},
+											"name": "1510798159789924356"
+										},
+										{
+											"attributes": {
+												"id": "1510956278734114818",
+												"text": "@this1wierdgirl @Echo4Resistance What is regular high risk?",
+												"retweet_count": 0,
+												"reply_count": 0,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "neutral",
+												"argumentative_type": "neutral"
+											},
+											"name": "1510956278734114818"
+										}
+									]
+								},
+								{
+									"attributes": {
+										"id": "1510788320883875842",
+										"text": "@Echo4Resistance @this1wierdgirl @uche_blackstock @Tinu It's a narrow group of immunosuppressed people. But at this point it is self-ID. You can just decide for yourself and tick the box.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "attack"
+									},
+									"name": "1510788320883875842"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1510732159451082756",
+								"text": "@this1wierdgirl @uche_blackstock @Tinu It’s there now, go get a booster! https://t.co/eyrlJRImF1",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510732159451082756",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510733582649679880",
+										"text": "@dianeedbril @uche_blackstock @Tinu That's over 50, I need under 50, I'm \"only\" high risk not immunocompromised. Thanks tho",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1510733582649679880"
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510668847421923329",
+						"text": "@uche_blackstock So few voices saying this in public forums anymore.",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 15,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 0.02107777654935905
+					},
+					"name": "1510668847421923329",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510672854400045065",
+								"text": "@ermarc58 @uche_blackstock Far TOO few…",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 5,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 0.006994006993007007
+							},
+							"name": "1510672854400045065"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510670663601827845",
+						"text": "@uche_blackstock Doc people are out here actin' like COVID just packed up and left and its all good again, and I.... https://t.co/z1jgehwSo3",
+						"retweet_count": 5,
+						"reply_count": 2,
+						"like_count": 38,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510670663601827845",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510675357170483203",
+								"text": "@Shes_deathProof @uche_blackstock U should look at data more https://t.co/Xv9sqeCVty",
+								"retweet_count": 0,
+								"reply_count": 2,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510675357170483203",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510757664862601216",
+										"text": "@whohead1 @Shes_deathProof @uche_blackstock From a metanalysis of long Covid studies: “more than half of COVID-19 survivors experienced PASC 6 months after recovery. The most common PASC involved functional mobility impairments, pulmonary abnormalities, and mental health disorders.”\n\nhttps://t.co/HBN62Za5ih",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 2,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "neutral"
+									},
+									"name": "1510757664862601216"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1510799272857542661",
+								"text": "@Shes_deathProof @uche_blackstock Yes… very few masks on at the grocery today. VERY few!",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 3,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "support"
+							},
+							"name": "1510799272857542661"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510671197767352332",
+						"text": "…and  I definitely need to acknowledge that many of these are not options for people who are uninsured and underinsured we don’t have single payer universal healthcare and Congressional funding has ended which is unconscionable. \n\n#MedicareForAll",
+						"retweet_count": 70,
+						"reply_count": 6,
+						"like_count": 645,
+						"quote_count": 1,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 1.0000009110457688
+					},
+					"name": "1510671197767352332",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510671487627411460",
+								"text": "*since we don’t have…",
+								"retweet_count": 7,
+								"reply_count": 3,
+								"like_count": 174,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "support",
+								"acceptability": 0.25314795772287546
+							},
+							"name": "1510671487627411460",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510672207063576580",
+										"text": "@uche_blackstock Thanks for keeping this health crises  in our collective consciousness!",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "positive",
+										"argumentative_type": "support",
+										"acceptability": 9.999999999177334e-7
+									},
+									"name": "1510672207063576580"
+								},
+								{
+									"attributes": {
+										"id": "1510745119464607747",
+										"text": "@uche_blackstock I mostly live in Canada where there is universal Healthcare. In the largest province of Ontario, there hasn't been  free PCR testing since last year. Testing even before then was nowhere close to the kind of accessibility you have in NYC for example.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "neutral"
+									},
+									"name": "1510745119464607747"
+								},
+								{
+									"attributes": {
+										"id": "1510826151555391490",
+										"text": "@uche_blackstock Would like to add that being boosted doesn't mean we can unmask. It's just an extra level of precaution SHOULD you get COVID as boosted individuals are less likely to get hospitalized.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1510826151555391490"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1510671696033816577",
+								"text": "@uche_blackstock Yes to all of this. So frustrating we do t have clear leadership truthfully telling people what is happening and how to best navigate it. So much avoidable harm.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 0.0013996013986012912
+							},
+							"name": "1510671696033816577"
+						},
+						{
+							"attributes": {
+								"id": "1510705970648956932",
+								"text": "@uche_blackstock Covid is definitely still here.  After 2 years of masking, vaccinations, and a Booster, I just tested positive……shit.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1510705970648956932"
+						},
+						{
+							"attributes": {
+								"id": "1510709756943429634",
+								"text": "@uche_blackstock Ending of Congressional funding - especially for those vulnerable and uninsured, will actually prolong and worsen the pandemic for ALL, but will be especially hard on the vulnerable. A terrible decision by Congress.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 0.0027982027972028867
+							},
+							"name": "1510709756943429634"
+						},
+						{
+							"attributes": {
+								"id": "1510891734984667138",
+								"text": "@uche_blackstock Thank YOU for this-- health equity is a goal worth fighting for... 🧿",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "positive",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1510891734984667138"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510671786656022532",
+						"text": "@uche_blackstock Can you please be the CDC director?!",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 82,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510671786656022532"
+				},
+				{
+					"attributes": {
+						"id": "1510673186811174912",
+						"text": "@uche_blackstock Yes, get that fourth shot. I had to cancel my appt because .... ya know .... covid.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 7,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.009791209790209754
+					},
+					"name": "1510673186811174912"
+				},
+				{
+					"attributes": {
+						"id": "1510673194272931843",
+						"text": "@uche_blackstock @ENirenberg Thanks https://t.co/D1P7KQ19LM",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 5,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 0.006994006993007007
+					},
+					"name": "1510673194272931843"
+				},
+				{
+					"attributes": {
+						"id": "1510673957426372611",
+						"text": "@uche_blackstock Thx for helping with my frustration. Do you recommend crops switching booster, ie Prizer 3x then Moderna 2nd booster?",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510673957426372611",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510999092327063555",
+								"text": "@RaphaelHP1 @uche_blackstock My dads doctor suggested dad switch to Moderna booster after two Pfizer shots, if he had choice.   He did.  I had already taken my third Pfizer with the booster but will probably switch it up for the second booster",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510999092327063555"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510676178306273282",
+						"text": "@uche_blackstock Amen to this doc. My husband and I were talking about getting our 2nd booster 💉this week and we stay maxed ✊🏾😷❤️",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 6,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.00839260839160838
+					},
+					"name": "1510676178306273282"
+				},
+				{
+					"attributes": {
+						"id": "1510676261609291780",
+						"text": "@uche_blackstock Thank you for using your platform to bring attention to this. \n\nI've come to realize that if Network TV News doesn't cover something, it simply doesn't exist for millions of people. \n\nListening to experts on the ground &amp; watching news feels like separate realities, at times.",
+						"retweet_count": 7,
+						"reply_count": 1,
+						"like_count": 82,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 0.12447652447552437
+					},
+					"name": "1510676261609291780"
+				},
+				{
+					"attributes": {
+						"id": "1510676479880876039",
+						"text": "@uche_blackstock Lady, do you think anyone on the planet isn’t aware? Find another way to validate yourself.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510676479880876039"
+				},
+				{
+					"attributes": {
+						"id": "1510677659520577537",
+						"text": "@uche_blackstock Not a chance in hell. I am done with masks and done with covid boosters, and there's not a single thing on earth you or \"public health\" can do to convince me otherwise.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1510677659520577537"
+				},
+				{
+					"attributes": {
+						"id": "1510679901799698445",
+						"text": "@uche_blackstock Umm, no.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510679901799698445"
+				},
+				{
+					"attributes": {
+						"id": "1510680946240102403",
+						"text": "@uche_blackstock Heard. 👂🏾",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 0.0027982027972028867
+					},
+					"name": "1510680946240102403"
+				},
+				{
+					"attributes": {
+						"id": "1510681527960674315",
+						"text": "@uche_blackstock @MsPackyetti Wake up.... https://t.co/Efyy5T4aX9",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510681527960674315"
+				},
+				{
+					"attributes": {
+						"id": "1510681877157457920",
+						"text": "@uche_blackstock Do you know of any community resource sharing or even cross-state resource sharing for rapid tests and KN95 masks?  For those of us with access that want to make our access (and any resources given to us for free) available to others?",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 10,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510681877157457920"
+				},
+				{
+					"attributes": {
+						"id": "1510685270307340289",
+						"text": "@uche_blackstock @Lnonblonde Hi, Dr. Blackstock: can you advise the best time period for taking the rapid tests? For example, if you went to an event where many were unmasked &amp; want to test for infection, how many days after the event is a good ballpark? Thanks!",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 7,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510685270307340289",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510701876840480776",
+								"text": "@kincaid323 @uche_blackstock @Lnonblonde Not a doctor, but from what I’ve read. Omicron is 3-5 days after exposure. Alpha is closer to 5-6. Two rapid tests, with one taken 24 hours after the first",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 6,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510701876840480776",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510870117478850560",
+										"text": "@PolarDisco @kincaid323 @uche_blackstock @Lnonblonde Tested positive on Monday two weeks ago... the previous Friday, I took a home test, a rapid test, and a PCR (long story). ALL we negative. So that testing after a couple more days, esp. if still feeling symptoms is crucial.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1510870117478850560"
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510686091996590083",
+						"text": "@uche_blackstock @QuentonKristin I have lived and survived in my “ignore Covid” bubble for the past two years, during which I have lived my best life ever.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1510686091996590083"
+				},
+				{
+					"attributes": {
+						"id": "1510689831172591617",
+						"text": "@uche_blackstock Also, be sure to check your privilege for Covid too. It lurks everywhere. Stay safe, guys ❤️",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.0027982027972028867
+					},
+					"name": "1510689831172591617"
+				},
+				{
+					"attributes": {
+						"id": "1510690159087476736",
+						"text": "@uche_blackstock F tests. People need to be stocking up on food!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 4,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.0055954055944056336
+					},
+					"name": "1510690159087476736"
+				},
+				{
+					"attributes": {
+						"id": "1510690530807762957",
+						"text": "@uche_blackstock How about learning to live with covid as we have done other viruses in the past?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510690530807762957"
+				},
+				{
+					"attributes": {
+						"id": "1510690621996081153",
+						"text": "@uche_blackstock COVID?\n\nNever heard of it.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510690621996081153"
+				},
+				{
+					"attributes": {
+						"id": "1510692079713800205",
+						"text": "@uche_blackstock No. \n\nStay home, save lives Karen.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "attack",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510692079713800205"
+				},
+				{
+					"attributes": {
+						"id": "1510693531140210694",
+						"text": "@uche_blackstock Whats the plan to do this forever",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510693531140210694"
+				},
+				{
+					"attributes": {
+						"id": "1510694171245522945",
+						"text": "@uche_blackstock @ENirenberg I’m going to go out to eat tho. Indoors sometimes too",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510694171245522945"
+				},
+				{
+					"attributes": {
+						"id": "1510695924779171842",
+						"text": "@uche_blackstock Iceland, Taiwan - never did the dumb stuff (business / schools closures, house arrest of uninflected), did a lot of smart stuff (track &amp; trace, isolation of infected, border control) - got superior results and not living with consequences of lockdown",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510695924779171842"
+				},
+				{
+					"attributes": {
+						"id": "1510700173172826121",
+						"text": "@uche_blackstock I got my second boost!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.00419680419580426
+					},
+					"name": "1510700173172826121"
+				},
+				{
+					"attributes": {
+						"id": "1510701284453543938",
+						"text": "@uche_blackstock @Ebonyteach Yeah but why vaccinate, if it doesnt stop the spread\n\nYall said it was 95% effective, and its not\n\nI did not believe your propaganda then, and I do not believe you now",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510701284453543938"
+				},
+				{
+					"attributes": {
+						"id": "1510705967138234374",
+						"text": "@uche_blackstock Do you recommend vaccines and boosters for those who suffered a vaccine injury? What if one’s family was used by a secret scientific research like the Tuskegee study. Should they just trust the government again? Are there any reasons you would not recommend getting jabbed?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510705967138234374"
+				},
+				{
+					"attributes": {
+						"id": "1510707948602867714",
+						"text": "@uche_blackstock Avoid crowds as much as possible, especially indoors, mask up when indoors or in crowds, be fully vaccinated and boosted - and if you test positive, please avoid contact with others(!).",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510707948602867714"
+				},
+				{
+					"attributes": {
+						"id": "1510707965178757124",
+						"text": "@uche_blackstock None of which will stop you from getting covid but whatever",
+						"retweet_count": 0,
+						"reply_count": 4,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510707965178757124",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510715071260860417",
+								"text": "@JuliaTfola @uche_blackstock Not meant to. It’s meant to keep it from getting serious enough to require hospitalization if you catch it.",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 3,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "attack"
+							},
+							"name": "1510715071260860417",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510717867875979264",
+										"text": "@JuliaTfola @uche_blackstock Oh, and to keep you from dying.",
+										"retweet_count": 0,
+										"reply_count": 1,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "support"
+									},
+									"name": "1510717867875979264",
+									"children": [
+										{
+											"attributes": {
+												"id": "1510746186923356165",
+												"text": "@olyjoanne @JuliaTfola hospitalization and death are remote risks for most people who are boosted \n\nthe time for masks is over",
+												"retweet_count": 0,
+												"reply_count": 2,
+												"like_count": 0,
+												"quote_count": 0,
+												"sentiment": "negative",
+												"argumentative_type": "support"
+											},
+											"name": "1510746186923356165",
+											"children": [
+												{
+													"attributes": {
+														"id": "1510746256943026186",
+														"text": "@olyjoanne @JuliaTfola and alas the time for tests was before we had them",
+														"retweet_count": 0,
+														"reply_count": 0,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "negative",
+														"argumentative_type": "support"
+													},
+													"name": "1510746256943026186"
+												},
+												{
+													"attributes": {
+														"id": "1510750068474888201",
+														"text": "@6Galatians @olyjoanne @JuliaTfola It’s remote fir everyone healthy",
+														"retweet_count": 0,
+														"reply_count": 1,
+														"like_count": 0,
+														"quote_count": 0,
+														"sentiment": "neutral",
+														"argumentative_type": "neutral"
+													},
+													"name": "1510750068474888201",
+													"children": [
+														{
+															"attributes": {
+																"id": "1510751684812754955",
+																"text": "@libraltexan @olyjoanne @JuliaTfola remote fir?  is that like a christmas tree over zoom?",
+																"retweet_count": 0,
+																"reply_count": 0,
+																"like_count": 0,
+																"quote_count": 0,
+																"sentiment": "neutral",
+																"argumentative_type": "neutral"
+															},
+															"name": "1510751684812754955"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1510719271118131201",
+								"text": "@JuliaTfola @uche_blackstock Ok Karen - any other tips",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510719271118131201"
+						},
+						{
+							"attributes": {
+								"id": "1510773060722384896",
+								"text": "@JuliaTfola @uche_blackstock Not absolutes. But it changes the odds.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 1,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510773060722384896"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510710638905077761",
+						"text": "@uche_blackstock @DrJaimeFriedman Boosters!  Let’s go people!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.00419680419580426
+					},
+					"name": "1510710638905077761"
+				},
+				{
+					"attributes": {
+						"id": "1510710869029801996",
+						"text": "@uche_blackstock Already did the last thing so no to the rest",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510710869029801996"
+				},
+				{
+					"attributes": {
+						"id": "1510725933921193988",
+						"text": "@uche_blackstock Won't stop. Can't stop.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.0027982027972028867
+					},
+					"name": "1510725933921193988"
+				},
+				{
+					"attributes": {
+						"id": "1510729590737616896",
+						"text": "@uche_blackstock Back to school tomorrow after a 2 week break- been enjoying photos of family adventures, get togethers, even some overseas travels- lets mix that all together with no masking, what could go wrong… 🤦🏻‍♀️",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 9,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510729590737616896"
+				},
+				{
+					"attributes": {
+						"id": "1510729840223260673",
+						"text": "@uche_blackstock @missnisha6849 Facts.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510729840223260673"
+				},
+				{
+					"attributes": {
+						"id": "1510736451545317380",
+						"text": "@uche_blackstock If you don’t mind me asking, do your kids still wear masks in school? I still wear mine and, as of last week, 100% of my students still wear them. Wondering what doctors are having their children do.",
+						"retweet_count": 2,
+						"reply_count": 3,
+						"like_count": 28,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510736451545317380",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510736578800402436",
+								"text": "@D75TeacherNYC Yes, they both still wear masks to school.",
+								"retweet_count": 2,
+								"reply_count": 2,
+								"like_count": 76,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support"
+							},
+							"name": "1510736578800402436",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510737117667856386",
+										"text": "@uche_blackstock Thank you 😅",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 3,
+										"quote_count": 0,
+										"sentiment": "positive",
+										"argumentative_type": "support"
+									},
+									"name": "1510737117667856386"
+								},
+								{
+									"attributes": {
+										"id": "1510838818148007938",
+										"text": "@uche_blackstock @D75TeacherNYC Thank you for sharing this. 🙏🏼I trust you and your messaging through the whole pandemic. With gratitude. 👍🏼🙏🏼",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 5,
+										"quote_count": 0,
+										"sentiment": "positive",
+										"argumentative_type": "support"
+									},
+									"name": "1510838818148007938"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1510845569773674498",
+								"text": "@D75TeacherNYC @uche_blackstock Another ID doc here. Both my kids still masking. Most of their classmates and all of their teachers are too, despite it being optional in our district for the last 3 weeks",
+								"retweet_count": 0,
+								"reply_count": 1,
+								"like_count": 4,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510845569773674498",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510936861291823104",
+										"text": "@Drbenderignacio @D75TeacherNYC @uche_blackstock I am admittedly jealous of this attitude. As soon as the school district mandate was released, masks were gone everywhere except medical facilities.",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 1,
+										"quote_count": 0,
+										"sentiment": "negative",
+										"argumentative_type": "support"
+									},
+									"name": "1510936861291823104"
+								}
+							]
+						},
+						{
+							"attributes": {
+								"id": "1510959565004759044",
+								"text": "@D75TeacherNYC @uche_blackstock My 13 and 15 are still masking.  I think they are but a handful still doing it. 13’s best friend &amp; who he sits next to on bus turned + last week.  Thankful for the 😷.  Total of 3 in his grade now + in 4 days. Weekly school testing is tomorrow.",
+								"retweet_count": 0,
+								"reply_count": 2,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "positive",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510959565004759044",
+							"children": [
+								{
+									"attributes": {
+										"id": "1510983266232320003",
+										"text": "@DCDoc33 @D75TeacherNYC @uche_blackstock It's amazing that you have an \"MD\" after your name.\n\nDo have any option as to when you think that masks won't be \"needed?\"",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "neutral",
+										"argumentative_type": "neutral"
+									},
+									"name": "1510983266232320003"
+								},
+								{
+									"attributes": {
+										"id": "1511160405703503872",
+										"text": "@DCDoc33 @D75TeacherNYC @uche_blackstock It is Amazing you STILL haven’t caught on lmao",
+										"retweet_count": 0,
+										"reply_count": 0,
+										"like_count": 0,
+										"quote_count": 0,
+										"sentiment": "positive",
+										"argumentative_type": "support"
+									},
+									"name": "1511160405703503872"
+								}
+							]
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510747667772674057",
+						"text": "@uche_blackstock Our household (including 6 kids, 2 working and 4 in shared custody) managed to avoid it all this time, but it came this weekend. SO went to the first social gathering since 3/20 (colleague's retirement at a restaurant in a private room), and he tested positive yesterday.",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 9,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510747667772674057"
+				},
+				{
+					"attributes": {
+						"id": "1510757494443823104",
+						"text": "@uche_blackstock And the threat of #LongCovid is greater than ever. I’m 3 months in and wouldn’t wish this on anyone. The long term debilitating health impact is enormous.",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 12,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.016784216783216843
+					},
+					"name": "1510757494443823104"
+				},
+				{
+					"attributes": {
+						"id": "1510767572756877312",
+						"text": "@uche_blackstock @rolandsmartin I’m at a wedding in Dana Point. There are only about five people wearing mask. My mother-in-law and I are three of the five.  What’s going on!!!",
+						"retweet_count": 0,
+						"reply_count": 2,
+						"like_count": 10,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510767572756877312",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510863440805572610",
+								"text": "@kris4925 @uche_blackstock @rolandsmartin It’s the “let me pretend it’s over” approach. \n\nNot me — still masking.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 2,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "neutral"
+							},
+							"name": "1510863440805572610"
+						},
+						{
+							"attributes": {
+								"id": "1511003866267062272",
+								"text": "@kris4925 @uche_blackstock @rolandsmartin yeah, people are just \"done with this.\"  Mother Nature may have news for that.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "support"
+							},
+							"name": "1511003866267062272"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510816019522068487",
+						"text": "@uche_blackstock It would be easy, cheap, safe &amp; more effective to ship &amp; deliver billions of @Vaxart #Covid19 💊 #vaccines &amp; #boosters to every person! It’s worth investing in an actual scalable solution that could stop infection &amp; transmission &amp; end this pandemic.\n\nhttps://t.co/A1iIBfaa6D",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510816019522068487"
+				},
+				{
+					"attributes": {
+						"id": "1510823178704244738",
+						"text": "@uche_blackstock Never took our masks off here in Florida",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 6,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510823178704244738"
+				},
+				{
+					"attributes": {
+						"id": "1510826228000845827",
+						"text": "@uche_blackstock @TheAngryEpi Thank you 🙏",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510826228000845827"
+				},
+				{
+					"attributes": {
+						"id": "1510827339097198594",
+						"text": "@uche_blackstock No thanks",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1510827339097198594"
+				},
+				{
+					"attributes": {
+						"id": "1510832635618242564",
+						"text": "@uche_blackstock Here is my PSA https://t.co/756W3kFcAh",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510832635618242564"
+				},
+				{
+					"attributes": {
+						"id": "1510833026183438337",
+						"text": "@uche_blackstock Also the rapid tests DO NOT work with many of the strains of virus now. If you feel bad it's important to go get tested at an actual facility! This is info I recieved directly from a CDC representative when I got my positive test.",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 4,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 0.005595409429685061
+					},
+					"name": "1510833026183438337",
+					"children": [
+						{
+							"attributes": {
+								"id": "1510870795165179910",
+								"text": "@daylight_rebel @uche_blackstock Even a pcr didn’t catch mine because I took it too early.",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "negative",
+								"argumentative_type": "support",
+								"acceptability": 9.999999999177334e-7
+							},
+							"name": "1510870795165179910"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510841851049230343",
+						"text": "@uche_blackstock Booster (2nd one) scheduled for tomorrow evening. First three we had no issues and neither of us has had COVID yet.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 3,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510841851049230343"
+				},
+				{
+					"attributes": {
+						"id": "1510847270538915841",
+						"text": "@uche_blackstock Do you have a case level in mind where you would not urge indoor masking for average risk folks in uncrowded situations? (My county hit 13.3 reported cases per 100K this week. I multiplied that by 4 before deciding about masking for low attendance church.)",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510847270538915841"
+				},
+				{
+					"attributes": {
+						"id": "1510860380918018052",
+						"text": "@uche_blackstock @TheAngryEpi Is the reason people mask and still get covid because it enters through the eyes?",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510860380918018052",
+					"children": [
+						{
+							"attributes": {
+								"id": "1511004334930153486",
+								"text": "@K9Jadie_AZ @uche_blackstock @TheAngryEpi because 99% isn't 100%?",
+								"retweet_count": 0,
+								"reply_count": 0,
+								"like_count": 0,
+								"quote_count": 0,
+								"sentiment": "neutral",
+								"argumentative_type": "neutral"
+							},
+							"name": "1511004334930153486"
+						}
+					]
+				},
+				{
+					"attributes": {
+						"id": "1510933404610666497",
+						"text": "@uche_blackstock 🙄🙄🙄 it’s over. Please for the love of god, stop",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1510933404610666497"
+				},
+				{
+					"attributes": {
+						"id": "1510940238436253697",
+						"text": "@uche_blackstock Will do…today!!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1510940238436253697"
+				},
+				{
+					"attributes": {
+						"id": "1510942128448450568",
+						"text": "@uche_blackstock I’m not doing that, you can though",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510942128448450568"
+				},
+				{
+					"attributes": {
+						"id": "1510963373999112193",
+						"text": "@uche_blackstock Thank you for this reminder for everyone. I still wear my mask.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1510963373999112193"
+				},
+				{
+					"attributes": {
+						"id": "1510975268915142661",
+						"text": "@uche_blackstock I haven’t had a cold since Nov. 2019. I wore a mask earlier today. Used hand sanitizer when I got in my car. Washed my hands thoroughly when I got in the house. I’ll be taking an immune booster tomorrow. But I’m triple Vaxxed. Getting my 2nd booster at some point b4 Saturday.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510975268915142661"
+				},
+				{
+					"attributes": {
+						"id": "1510976054290178050",
+						"text": "@uche_blackstock I still know 10 people that haven’t gotten 1 Covid vaccine shot.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510976054290178050"
+				},
+				{
+					"attributes": {
+						"id": "1510985112636252160",
+						"text": "@uche_blackstock Thank you so much ❤️- I thought some memo about the pandemic had come out saying it was over. We are still masked and on track for 2nd booster in 2 weeks. 🤗🙏🏾",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "positive",
+						"argumentative_type": "support",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1510985112636252160"
+				},
+				{
+					"attributes": {
+						"id": "1510993735982755844",
+						"text": "@uche_blackstock @projectn95 “We’re epidemiologists, nurses and physicians, artists and biologists. We have come together with a common anger at the US government’s handling of Covid.” https://t.co/K9v8jc5xqQ",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 7,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510993735982755844"
+				},
+				{
+					"attributes": {
+						"id": "1510998436409184261",
+						"text": "@uche_blackstock Heads up, everyone is eligible for a booster if they are willing to lie to the pharmacy.",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "neutral"
+					},
+					"name": "1510998436409184261"
+				},
+				{
+					"attributes": {
+						"id": "1511027874161217538",
+						"text": "@uche_blackstock I am seeing tweets about NY'ers testing positive but no one is mentioning quarantining. Does it still apply?",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1511027874161217538"
+				},
+				{
+					"attributes": {
+						"id": "1511043611537903622",
+						"text": "@uche_blackstock Join chat and thank me later\n\nhttps://t.co/RO847aAjKh",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1511043611537903622"
+				},
+				{
+					"attributes": {
+						"id": "1511086241038708742",
+						"text": "@uche_blackstock @lisawmusic Still masking, my wife is still masking, my 6 yo is still masking. We are the only ones in the grocery store with masks on. My kid is one of three in her class that still wear masks all day. Not over yet!",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "neutral"
+					},
+					"name": "1511086241038708742"
+				},
+				{
+					"attributes": {
+						"id": "1511091779952652297",
+						"text": "@uche_blackstock @MrAhmednurAli That’s weird…your user name says md but you think masks stop virus’? Huh",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 1,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "attack",
+						"acceptability": 0.0013996013986012912
+					},
+					"name": "1511091779952652297"
+				},
+				{
+					"attributes": {
+						"id": "1511157325767270400",
+						"text": "@uche_blackstock Some of us are living the nightmare of the pandemic.\n\nMy sis - a frontline nurse case mgr - got Covid working in a hospital. I’m asking folks to donate and help my sis. She worked endless hours making sure individuals got discharged to “the right care”.\n\nhttps://t.co/Ra1uZ3b93a",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1511157325767270400"
+				},
+				{
+					"attributes": {
+						"id": "1511200208876617732",
+						"text": "@uche_blackstock I’m definitely wearing a mask inside and will keep it on outside this week at the face painting booth for field day 😬 😱😷🤔",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1511200208876617732"
+				},
+				{
+					"attributes": {
+						"id": "1511210889340493824",
+						"text": "Het lezen waard!\n\nHow Covid-19 conspiracy theorists pivoted to pro-Russian hoaxes https://t.co/a8KxxmaKxU",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "negative",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1511210889340493824"
+				},
+				{
+					"attributes": {
+						"id": "1511210861507280898",
+						"text": "COVID-19 SAFETY PROTOCOLS\n#TeamPNP \n#WeServeAndProtect \n#PNPKakampiMo https://t.co/XZl7hgT2CI",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1511210861507280898"
+				},
+				{
+					"attributes": {
+						"id": "1511210816305254400",
+						"text": "COVID-19 SAFETY PROTOCOLS\n#TeamPNP \n#WeServeAndProtect \n#PNPKakampiMo https://t.co/07OjbvjpF2",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1511210816305254400"
+				},
+				{
+					"attributes": {
+						"id": "1511210814262325250",
+						"text": "Jack kept saying that the COVID-19 came from Fort Detrick, and now I have to tell him: you're right!\n#COVID19\n#COVID\n#Omicron\n#COVID-19\nhttps://t.co/t3x1S2OaX7",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"sentiment": "neutral",
+						"argumentative_type": "support",
+						"acceptability": 9.999999999177334e-7
+					},
+					"name": "1511210814262325250"
+				}
+			]
+		},
+		"metrics": {
+			"root_tweet_sentiment": "neutral",
+			"root_tweet_argument_strength": 0.6594539021904509,
+			"strongest_argument_id": "1510671197767352332",
+			"sentiment_towards_root": "neutral",
+			"general_sentiment": "neutral"
+		}
+	}
+}

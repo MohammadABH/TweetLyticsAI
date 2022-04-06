@@ -1,11 +1,11 @@
-import { Container } from "@chakra-ui/react";
 import React from "react";
+import { Container } from "@chakra-ui/react";
 
 import ErrorAlert from "../components/ErrorAlert";
 
 const PageNotFound = () => {
   return (
-    <Container>
+    <Container data-testid="page-not-found">
       <ErrorAlert
         errorMessage="404 Not Found"
         errorTitle="Page not Found!"

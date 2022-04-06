@@ -12,7 +12,7 @@ import TweetSearchBar from "../components/TweetSearchBar";
 const HomePage = () => {
   return (
     <>
-      <Heading as="h1" size="4xl">
+      <Heading as="h1" size="4xl" data-testid="home-page">
         TweetLyticsAI
       </Heading>
       <TweetSearchBar />
@@ -32,6 +32,9 @@ const HomePage = () => {
           it? What is the sentiment towards the tweet (positive / negative /
           neutral)? Who is winning the argument? Is the original tweet winning?
           This application will perform all this analysis for you NOW!
+          <br /> <br />
+          <strong>Note:</strong> You can only input tweets that have been posted
+          up to 7 days ago as a limitation from the Twitter API
         </Text>
       </Container>
 
@@ -43,7 +46,8 @@ const HomePage = () => {
           </ListItem>
           <ListItem>
             Indirectly means when someone tweets something related to the topic
-            of the tweet and is an argument for / against the tweet
+            of the tweet and is an argument for / against the tweet, but is not
+            in the initial tweet conversation
           </ListItem>
         </UnorderedList>
       </Container>

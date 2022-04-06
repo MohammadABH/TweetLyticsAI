@@ -1,0 +1,2 @@
+I verify that I am the sole author of the programs contained in this folder, except where explicitly stated to the contrary.
+- Mohammad Albinhassan, 06/04/2022

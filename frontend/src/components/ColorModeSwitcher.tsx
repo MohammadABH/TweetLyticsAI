@@ -16,6 +16,7 @@ const ColorModeSwitcher: React.FC<ColorModeSwitcherProps> = (props) => {
 
   return (
     <IconButton
+      data-testid="color-picker"
       size="md"
       fontSize="lg"
       variant="ghost"
